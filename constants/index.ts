@@ -12,7 +12,7 @@ export const navbarItems = [
       id: 3,
       // title: "Services",
       title: "Growth Story",
-      href: "/services",
+      href: "/GrowthStory",
    },
    {
       id: 2,
@@ -104,12 +104,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -125,37 +125,37 @@ export const clientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "big news deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 5,
             title: "product presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 6,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 7,
             title: "startup pitch",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -171,27 +171,27 @@ export const clientsItem = [
          {
             id: 1,
             title: "compony presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "onboarding presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "policy deck and playbook",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "redesign",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 5,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -207,12 +207,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "branded template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "illustration",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -228,12 +228,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -249,7 +249,7 @@ export const clientsItem = [
          {
             id: 1,
             title: "branded template deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -265,27 +265,27 @@ export const clientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "product presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "review",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -301,12 +301,12 @@ export const clientsItem = [
          {
             id: 1,
             title: "review",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "startup pitch",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -322,17 +322,17 @@ export const clientsItem = [
          {
             id: 1,
             title: "branding",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "startup pitch",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -349,22 +349,22 @@ export const projectItem = [
          {
             id: 1,
             title: "audit",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "copywriting",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "slides design",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -377,12 +377,12 @@ export const projectItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "compony presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -395,17 +395,17 @@ export const projectItem = [
          {
             id: 1,
             title: "brand identity",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "design research",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -418,7 +418,7 @@ export const projectItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -483,7 +483,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -504,7 +504,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -550,7 +550,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "compony presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -586,7 +586,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "branded template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -607,7 +607,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -628,7 +628,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "branded template deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -644,7 +644,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -680,7 +680,7 @@ export const serviceClientsItem = [
          {
             id: 1,
             title: "review",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -880,7 +880,7 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "audit",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -908,7 +908,7 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "brand identity",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -931,7 +931,7 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -944,32 +944,32 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "big news deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 5,
             title: "policy deck & playbook",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 6,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -982,17 +982,17 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "redesign",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "review",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -1005,7 +1005,7 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "agency",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
@@ -1023,12 +1023,12 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "sales desc",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -1041,7 +1041,7 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -1054,17 +1054,17 @@ export const presentationProjectItem = [
          {
             id: 1,
             title: "onboarding presentation",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "policy deck & playbook",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -1155,7 +1155,7 @@ export const workizItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
@@ -1168,32 +1168,32 @@ export const workizItem = [
          {
             id: 1,
             title: "brand template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 2,
             title: "big news deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 3,
             title: "branded template",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 4,
             title: "investor deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 5,
             title: "policy deck & playbook",
-            href: "/services",
+            href: "/GrowthStory",
          },
          {
             id: 6,
             title: "sales deck",
-            href: "/services",
+            href: "/GrowthStory",
          },
       ]
    },
