@@ -4,22 +4,26 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 export const navbarItems = [
    {
       id: 1,
-      title: "Services",
+      // title: "About us",
+      title: "Influidity",
+      href: "/influidity",
+   },
+   {
+      id: 3,
+      // title: "Services",
+      title: "Growth Story",
       href: "/services",
    },
    {
       id: 2,
-      title: "Our work",
+      // title: "Our work",
+      title: "Consulting",
       href: "/presentation",
    },
    {
-      id: 3,
-      title: "About us",
-      href: "/ochi-team",
-   },
-   {
       id: 4,
-      title: "Insights",
+      // title: "Insights",
+      title: "Career",
       href: "/insights",
    },
    {
@@ -34,23 +38,23 @@ export const navbarItems = [
 export const footerItems = [
    {
       id: 1,
-      title: "Instagram",
-      href: "https://www.instagram.com/",
+      title: "Linkedin",
+      href: "https://www.linkedin.com/company/influidity-solution/",
    },
    {
       id: 2,
-      title: "Behance",
-      href: "https://www.behance.com/",
+      title: "Instagram",
+      href: "https://www.instagram.com/influidity_solution/",
    },
    {
       id: 3,
       title: "Facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/influiditysolution/",
    },
    {
       id: 4,
-      title: "Linkedin",
-      href: "https://www.linkedin.com/",
+      title: "X",
+      href: "https://x.com/Influidity",
    },
 ];
 
@@ -61,23 +65,23 @@ export const footernavbarItems = [
       href: "/",
    },
    {
-      id: 2,
-      title: "Services",
-      href: "services",
-   },
-   {
       id: 3,
-      title: "Our work",
+      title: "Consulting",
       href: "presentation",
    },
    {
-      id: 4,
-      title: "About us",
+      id: 2,
+      title: "Influidity",
       href: "ochi-team",
    },
    {
+      id: 4,
+      title: "Growth Story",
+      href: "services",
+   },
+   {
       id: 5,
-      title: "Insights",
+      title: "Career",
       href: "insights",
    },
    {

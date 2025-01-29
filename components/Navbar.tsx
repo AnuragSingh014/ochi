@@ -29,12 +29,13 @@ export default function Navbar() {
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="w-[50%]">
 					<Link href={"/"}>
-						<Image
+						{/* <Image
 							src={logo}
 							alt="ochi logo"
 							width={70}
 							height={70}
-						/>
+						/> */}
+						<p className="font-semibold text-2xl">Influidity</p>
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">

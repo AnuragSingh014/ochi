@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+	cursor: none; /* Hide the default cursor */
+  }
+  
 html {
 	overflow-x: hidden;
 }

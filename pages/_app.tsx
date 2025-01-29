@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Footer, Navbar } from "@/components";
 import { AnimatePresence } from "framer-motion";
-
+import CustomCursor from "@/components/CustomCursor";
 export default function App({
 	Component,
 	pageProps,
@@ -13,6 +13,7 @@ export default function App({
 }) {
 	return (
 		<>
+		<CustomCursor isDesktop={true} /> 
 			<Navbar />
 			<AnimatePresence mode="wait">
 				<Component

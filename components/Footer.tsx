@@ -41,22 +41,17 @@ export default function Footer() {
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`202-1965 W 4th Awe`}
+										title={`823 ,8th Floor, DLF Cybercity Idco Info Park,`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Vancouver, Canada`}
+										title={`Technology Corridor, Chandaka Industrial Estate,`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="30 Chukarina"
-										href="/"
-									/>
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="St Lviv, Ukraine"
+										title="Patia, Bhubaneswar, Odisha 751024"
 										href="/"
 									/>
 								</div>
@@ -80,8 +75,8 @@ export default function Footer() {
 								E:
 							</h1>
 							<LinkHover
-								title="hello@ochi.design"
-								href="/"
+								title="connect@influidity.com"
+								href="mailto:connect@influidity.com"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</div>
@@ -102,7 +97,7 @@ export default function Footer() {
 				<div className="w-1/2 h-full flex gap-[10px] justify-between items-end sm:w-full xm:w-full sm:flex-col xm:flex-col sm:items-start xm:items-start">
 					<div className="flex sm:flex-col xm:flex-col gap-[10px]">
 						<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© ochi design 2024.
+							© Influidity Solution 2025
 						</h1>
 						<LinkHover
 							title="Legal Terms"
@@ -112,7 +107,7 @@ export default function Footer() {
 					</div>
 					<div>
 						<LinkHover
-							title="Website by Zain"
+							title=""
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
