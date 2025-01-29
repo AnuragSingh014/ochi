@@ -3,7 +3,7 @@ import CustomCursor from "../components/CustomCursor"
 export default function Document() {
   return (
     <Html lang="en">
-      <title>OCHI - Presentation Design Agency</title>
+      <title>Influidity</title>
       <Head />
       <body>
         <Main />
