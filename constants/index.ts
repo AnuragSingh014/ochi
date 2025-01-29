@@ -34,7 +34,6 @@ export const navbarItems = [
 ];
 
 // Footer
-
 export const footerItems = [
    {
       id: 1,
@@ -97,9 +96,9 @@ export const clientsItem = [
       website: "Karman Ventures",
       href: "https://www.ochi.design",
       title: "Services:",
-      name: "William Barnes",
+      name: "Rajesh Kumar Ghosh",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "Working with Influidity Solution was a breath of fresh air. They didn’t just create ads—they gave us an emotional connection with our audience.",
       links: [
          {
             id: 1,
@@ -120,7 +119,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "The team at Influidity Solution completely changed our digital presence. Before working with them, we barely had a digital footprint, and now our page is dynamic, engaging and well maintained.",
       links: [
          {
             id: 1,
@@ -159,6 +158,7 @@ export const clientsItem = [
          },
       ]
    },
+
    {
       id: 3,
       website: "Workiz Easy",
@@ -166,7 +166,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Influidity Solution took our brand to the next level. Their creative strategies not only increased our engagement but also strengthened our connection with our audience.",
       links: [
          {
             id: 1,
@@ -202,7 +202,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Elien Kim",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "From strategy to execution, Influidity Solution delivered beyond expectations. Their expertise in digital marketing helped us reach the right customers at the right time.",
       links: [
          {
             id: 1,
@@ -223,7 +223,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The professionalism and dedication of the Influidity Solution team are unmatched. They understood our vision and transformed it into compelling content that drives results.",
       links: [
          {
             id: 1,
@@ -244,7 +244,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Influidity Solution doesn’t just create campaigns—they build brand stories. Thanks to their innovative approach, our online presence has never been stronger.",
       links: [
          {
             id: 1,
@@ -260,7 +260,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Stefan Strohmer",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "Partnering with Influidity Solution was the best decision for our business. Their tailored strategies and keen insights have led to increased brand awareness and customer engagement.",
       links: [
          {
             id: 1,
@@ -296,7 +296,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Jacki Smith",
       src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
+      review: "Their attention to detail and commitment to success make Influidity Solution stand out. They consistently deliver high-quality content that resonates with our audience.",
       links: [
          {
             id: 1,
@@ -317,7 +317,7 @@ export const clientsItem = [
       title: "Services:",
       name: "David Buddy",
       src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "Influidity Solution helped us break through the noise in a crowded market. Their fresh and strategic approach positioned our brand as an industry leader.",
       links: [
          {
             id: 1,
@@ -478,7 +478,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "William Barnes",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "about theThey were transparent  time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
       links: [
          {
             id: 1,
@@ -574,6 +574,7 @@ export const serviceClientsItem = [
          },
       ]
    },
+
    {
       id: 4,
       website: "Premium Blend",
