@@ -34,7 +34,6 @@ export const navbarItems = [
 ];
 
 // Footer
-
 export const footerItems = [
    {
       id: 1,
@@ -94,330 +93,256 @@ export const footernavbarItems = [
 export const clientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      website: "Rajesh Kumar Ghosh",
+      href: "",
       title: "Services:",
-      name: "William Barnes",
+      name: "Review",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "Working with Influidity Solution was a breath of fresh air. They didn’t just create ads—they gave us an emotional connection with our audience.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Marketing Consulting",
             href: "/GrowthStory",
          },
-         {
-            id: 2,
-            title: "sales deck",
-            href: "/GrowthStory",
-         },
+         
       ]
    },
    {
       id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
+      website: "Manoj Kumar Nayak",
+      href: "",
       title: "Services:",
-      name: "Nina Walloch",
+      name: "Review",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "The team at Influidity Solution completely changed our digital presence. Before working with them, we barely had a digital footprint, and now our page is dynamic, engaging and well maintained.",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Business Consulting",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "Virtual CFO",
             href: "/GrowthStory",
          },
-         {
-            id: 3,
-            title: "branded template",
-            href: "/GrowthStory",
-         },
-         {
-            id: 4,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 5,
-            title: "product presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
-            href: "/GrowthStory",
-         },
+        
       ]
    },
+
    {
       id: 3,
-      website: "Workiz Easy",
+      website: "Olivia Carter",
       href: "https://www.workiz.com",
       title: "Services:",
-      name: "Tormer levy",
+      name: "Review",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Influidity Solution took our brand to the next level. Their creative strategies not only increased our engagement but also strengthened our connection with our audience.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "onboarding presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "policy deck and playbook",
-            href: "/GrowthStory",
-         },
-         {
-            id: 4,
-            title: "redesign",
-            href: "/GrowthStory",
-         },
-         {
-            id: 5,
-            title: "sales deck",
+            title: "HR Consulting",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
+      website: "Mohammed Al Mansoori",
+      href: "",
       title: "Services:",
-      name: "Elien Kim",
+      name: "Review",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "From strategy to execution, Influidity Solution delivered beyond expectations. Their expertise in digital marketing helped us reach the right customers at the right time.",
       links: [
          {
             id: 1,
-            title: "branded template",
+            title: "Business Consulting",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "illustration",
+            title: "Virtual CFO",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
+      website: "Rohan Kapoor",
+      href: "",
       title: "Services:",
-      name: "Brendon Goss",
+      name: "Review",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The professionalism and dedication of the Influidity Solution team are unmatched. They understood our vision and transformed it into compelling content that drives results.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "Virtual CFO",
             href: "/GrowthStory",
          },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/GrowthStory",
-         },
+         
       ]
    },
    {
       id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
+      website: "Jackson Reed",
+      href: "",
       title: "Services:",
-      name: "Raff Labri",
+      name: "Review",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Influidity Solution doesn’t just create campaigns—they build brand stories. Thanks to their innovative approach, our online presence has never been stronger.",
       links: [
          {
             id: 1,
-            title: "branded template deck",
+            title: "Marketing Consulting",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
+      website: "Abhi Biswas",
+      href: "",
       title: "Services:",
-      name: "Stefan Strohmer",
+      name: "Review",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "Partnering with Influidity Solution was the best decision for our business. Their tailored strategies and keen insights have led to increased brand awareness and customer engagement.",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "HR Consulting",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "Marketing Consulting",
             href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "product presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "sales deck",
+            title: "Virtual CFO",
             href: "/GrowthStory",
          },
       ]
    },
-   {
-      id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
-      src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-      links: [
-         {
-            id: 1,
-            title: "review",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "startup pitch",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 9,
-      website: "Trawa Energy",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "David Buddy",
-      src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
-      links: [
-         {
-            id: 1,
-            title: "branding",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "startup pitch",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-
 ];
 
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Marketing Consulting",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Brand Strategy Development",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "Market Research & Consumer Insights​​",
             href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "Digital Marketing",
             href: "/GrowthStory",
          },
          {
             id: 4,
-            title: "slides design",
+            title: "Website Development​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 5,
+            title: "Social Media Marketing​",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 2,
-      title: "vise",
+      title: "Business Consulting",
       href: "/case/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Strategic Business Planning​",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "Operational Excellence Consulting​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 3,
+            title: "Growth Strategy & Market Entry​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Business Model Innovation​​",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 3,
-      title: "trawa",
+      title: "HR Consulting",
       href: "/case/",
       src: project3,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Workforce Planning & Talent Acquisition",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "design research",
+            title: "HR Policy Development & Compliance",
             href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "HR Technology Implementation​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Employee Onboarding & Offboarding​​",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 4,
-      title: "premiumblend",
+      title: "Virtual CFO",
       href: "/case/",
       src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Financial Planning & Forecasting​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 2,
+            title: "Cash Flow Management​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 3,
+            title: "Budgeting & Cost Optimization",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Financial Reporting & Analysis​",
             href: "/GrowthStory",
          },
       ]
@@ -478,7 +403,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "William Barnes",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "about theThey were transparent  time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
       links: [
          {
             id: 1,
@@ -574,6 +499,7 @@ export const serviceClientsItem = [
          },
       ]
    },
+
    {
       id: 4,
       website: "Premium Blend",
@@ -873,197 +799,117 @@ export const achiveItems = [
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "fyde",
-      src: project1,
+      title: "Marketing Consulting",
       href: "/case/",
+      src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Brand Strategy Development",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "copywriting",
-            href: "services",
+            title: "Market Research & Consumer Insights​​",
+            href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "services",
+            title: "Digital Marketing",
+            href: "/GrowthStory",
          },
          {
             id: 4,
-            title: "slides design",
-            href: "services",
+            title: "Website Development​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 5,
+            title: "Social Media Marketing​",
+            href: "/GrowthStory",
          },
       ]
    },
    {
       id: 2,
-      title: "trawa",
-      src: project3,
+      title: "Business Consulting",
       href: "/case/",
+      src: project2,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Strategic Business Planning​",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "design research",
-            href: "services",
+            title: "Operational Excellence Consulting​",
+            href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "investor deck",
-            href: "services",
+            title: "Growth Strategy & Market Entry​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Business Model Innovation​​",
+            href: "/GrowthStory",
          },
       ]
    },
    {
       id: 3,
-      title: "premium blend",
-      src: project4,
+      title: "HR Consulting",
       href: "/case/",
+      src: project3,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Workforce Planning & Talent Acquisition",
+            href: "/GrowthStory",
+         },
+         {
+            id: 2,
+            title: "HR Policy Development & Compliance",
+            href: "/GrowthStory",
+         },
+         {
+            id: 3,
+            title: "HR Technology Implementation​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Employee Onboarding & Offboarding​​",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 4,
-      title: "planetly",
-      src: project5,
+      title: "Virtual CFO",
       href: "/case/",
+      src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Financial Planning & Forecasting​",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "Cash Flow Management​",
             href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "Budgeting & Cost Optimization",
             href: "/GrowthStory",
          },
          {
             id: 4,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 5,
-            title: "policy deck & playbook",
-            href: "/GrowthStory",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 5,
-      title: "black box",
-      src: project8,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "redesign",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "review",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 6,
-      title: "vise",
-      src: project2,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "compony presentation",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      title: "soft start",
-      src: project9,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "sales desc",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 8,
-      title: "officevibe",
-      src: project7,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 9,
-      title: "workiz easy",
-      src: project6,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "onboarding presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "policy deck & playbook",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "sales deck",
+            title: "Financial Reporting & Analysis​",
             href: "/GrowthStory",
          },
       ]
@@ -1258,99 +1104,114 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
+      question: "What types of consulting services do you offer?",
       title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      description: "We specialize in four key areas: Marketing Consulting, Business Consulting, HR Consulting, and Virtual CFO services. Each service is tailored to address specific challenges and help your business achieve its goals effectively.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
+            description: "Marketing Consulting focuses on boosting your brand visibility, customer engagement, and revenue growth through data-driven strategies, including digital marketing, branding, and customer retention programs."
          },
          {
             id: 2,
             title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
+            description: "Business Consulting helps optimize operations, streamline processes, and identify growth opportunities for sustainable success, offering solutions like market analysis, process improvement, and strategic planning."
          },
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
+      question: "How can Marketing Consulting help my business?",
       title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      description: "Our Marketing Consulting services are designed to create impactful strategies that align with your business objectives. We help you reach your target audience, improve customer retention, and maximize ROI.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Develop customized marketing plans tailored to your industry and audience, including market research, competitor analysis, and customer segmentation."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "Execute campaigns from start to finish, ensuring measurable results and continuous improvement through performance tracking, A/B testing, and ROI analysis."
          },
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
+      question: "What does Business Consulting include?",
       title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      description: "Business Consulting provides comprehensive support to enhance your organization’s efficiency, profitability, and market presence. We analyze your current processes and develop strategies for long-term growth.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Streamline operations to reduce costs and improve productivity by identifying bottlenecks, automating workflows, and implementing best practices."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "Conduct market analysis to identify new opportunities and expand your business reach, including competitor benchmarking, customer insights, and entry strategies for new markets."
          },
       ],
       button: "read"
    },
    {
       id: 4,
-      question: "I want to become a part of the team! Do you hire?",
+      question: "How does HR Consulting benefit my organization?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Our HR Consulting services focus on building a strong, engaged, and compliant workforce. We help you attract top talent, retain employees, and create a positive workplace culture.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "Implement recruitment and training programs to build a skilled workforce, including job profiling, candidate screening, onboarding, and leadership development."
          },
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "Develop HR policies and procedures that ensure compliance and foster employee satisfaction, covering areas like performance management, employee engagement, and legal compliance."
          },
       ],
       button: "read"
    },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
+      question: "What is a Virtual CFO, and how can it help my business?",
       title: "Description",
-      description: "The short answer is yes.",
+      description: "A Virtual CFO offers expert financial guidance without the need for a full-time executive. We help you manage budgets, forecasts, and financial reporting to make informed business decisions.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            description: "Align your financial strategies with your business goals for sustainable growth, including cash flow management, financial modeling, and investment planning."
          },
          {
             id: 2,
             title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
+            description: "Provide cost-effective access to high-level financial expertise, saving you time and resources while ensuring accurate financial reporting, tax compliance, and risk management."
          },
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
+      question: "How do I choose the right consulting service for my needs?",
       title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      description: "We understand that every business is unique, and our team is here to guide you in selecting the best service or combination of services to address your specific challenges.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Start with a free consultation to discuss your needs and goals in detail, including a thorough assessment of your current challenges and opportunities."
+         },
+         {
+            id: 2,
+            title: 2,
+            description: "Receive tailored recommendations and solutions designed to deliver measurable results for your business, ensuring a clear roadmap for success and ongoing support."
          },
       ],
       button: "read"

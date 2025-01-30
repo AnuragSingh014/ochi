@@ -5,8 +5,8 @@ import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
 export default function Footer() {
-	const phrase = ["Eye-", "opening"];
-	const phrase1 = ["PRESENTATIONS"];
+	const phrase = ["Let’s make it",];
+	const phrase1 = ["*happen!"];
 	return (
 		<footer className="w-full min-h-screen padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col">

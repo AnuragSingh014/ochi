@@ -3,7 +3,7 @@ import CustomCursor from "../components/CustomCursor"
 export default function Document() {
   return (
     <Html lang="en">
-      <title>Influidity</title>
+      <title>Influidity Solution</title>
       <Head />
       <body>
         <Main />

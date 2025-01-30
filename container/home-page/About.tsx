@@ -13,18 +13,16 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
-					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
+					Business challenges demand real solutions, not fluff.
+					<br className="sm:hidden xm:hidden" /> We are the partner&nbsp;
+					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer"> who rolls up </span>
+					&nbsp;their sleeves with you, <br className="sm:hidden xm:hidden" />
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						raise funds,
-					</span>
-					&nbsp;sell prod­ucts, <br className="sm:hidden xm:hidden" />
-					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						ex­plain com­plex ideas,
+						not the one who hands over
 					</span>
 					&nbsp;and&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						hire great peo­ple.
+						a deck and leaves.
 					</span>
 				</h2>
 			</div>
@@ -32,21 +30,22 @@ export default function About() {
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
-							What you can expect?
+							Why it matters?
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									We create tailored presentations to help you persuade your
-									colleagues, clients, or investors. Whether it’s live or
-									digital, delivered for one or a hundred people.
+									We simplify business challenges and convert them into opportunities.
+									Whether building a strategy that works, fixing what's broken,
+									or unlocking the next growth chapter, we have your back.
+
 								</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									We believe the mix of strategy and design (with a bit of
-									coffee) is what makes your message clear, convincing, and
-									captivating.
+									In today's world, speed and clarity win.
+									We focus on actionable solutions that drive results—no jargon,
+									no overcomplications
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
@@ -70,7 +69,26 @@ export default function About() {
 			</div>
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 				<div className="flex flex-col gap-[30px]">
-					<Heading title="Our approach:" />
+					<Heading title="Why you choose us?" />
+					<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
+						Because we care about what works for you. Our approach is:</p>
+
+					<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
+						<span className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide link-flash cursor-pointer">
+							Straightforward:
+						</span> No fluff, no unnecessary layers.
+						<br className="sm:hidden xm:hidden" />
+						<span className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide link-flash cursor-pointer">
+							Practical:
+						</span> You get solutions you can implement today.
+
+						<br className="sm:hidden xm:hidden" />
+						<span className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide link-flash cursor-pointer">
+							Result-Oriented:
+						</span> Your wins are how we measure our success.
+
+
+					</p>
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
@@ -85,15 +103,13 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
-						hovered && "scale-[0.96]"
-					}`}>
+					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+						}`}>
 					<Image
 						src={aboutImg}
 						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
-							hovered && "scale-[1.09]"
-						}`}
+						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${hovered && "scale-[1.09]"
+							}`}
 					/>
 				</div>
 			</div>

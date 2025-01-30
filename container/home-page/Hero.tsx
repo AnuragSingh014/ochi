@@ -8,9 +8,9 @@ import { awwwards, ochiside } from "@/public";
 
 // Shooting stars configuration
 const stars = [
-  { top: 0, right: 0, delay: 0, duration: 1 },
-  { top: 0, right: 80, delay: 0.2, duration: 3 },
-  { top: 80, right: 0, delay: 0.4, duration: 2 },
+  { top: 0, right: 0, delay: 0, duration: 8 },
+  { top: 0, right: 80, delay: 0.2, duration: 6 },
+  { top: 80, right: 0, delay: 0.4, duration: 4 },
 //   { top: 0, right: 180, delay: 0.6, duration: 1.5 },
 //   { top: 0, right: 400, delay: 0.8, duration: 2.5 },
 //   { top: 0, right: 600, delay: 1, duration: 3 },
@@ -48,7 +48,7 @@ export default function Hero() {
 					<div className="w-full flex justify-between gap-[20px] pl-[50px] md:pl-[30px] sm:pl-[20px] xm:pl-[20px]">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								we create <br />
+								 <br />
 								<div className="flex items-center gap-[5px]">
 									<motion.span
 										initial={{ width: 0 }}
@@ -68,10 +68,10 @@ export default function Hero() {
 										/> */}
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										eye-opening
+									we solve problems
 									</h1>
 								</div>
-								presentation
+								— you scale faster
 							</h1>
 						</div>
 						<div>
@@ -102,7 +102,7 @@ export default function Hero() {
 										<Link
 											className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all  transform duration-[0.3s] ease-[.215,.61,.355,1]"
 											href="/contact">
-											start the project
+											Book a consultaton
 										</Link>
 									</div>
 									<div className="w-[33px] flex items-center justify-center h-[33px] border border-[#21212199] rounded-full p-[1px] sm:p-[30px] xm:pb-[30px]  group-hover:bg-secondry transition-all transform duration-[0.3s] ease-[.215,.61,.355,1] cursor-pointer xm:hidden sm:hidden">

@@ -50,25 +50,20 @@ export default function Hero() {
 								<div className="w-[50%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											In Ukrainian, ochi - means eyes. It&apos;s not
-											<br /> just a beautiful word, but our philosophy.
+										Influidity Solution isn’t about templates or checklists—it’s about real solutions, adaptability, and long-term success.
+											<br /> Founded in 2017, the company blends infinity (endless possibilities) and fluidity (adaptability) to help businesses launch, scale, or redefine themselves.
 											<br />
-											Almost everything that needs to be
-											<br /> communicated is better shown than <br />
-											explained.
+											Their strategies evolve with clients, solving problems proactively rather than reactively.
 										</p>
 									</div>
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											We believe a great presentation evokes
+										With a no-fluff, results-driven approach, Influidity designs solutions that work in the real world—cutting inefficiencies, enhancing customer experiences,
 											<br />
-											interest and drives business results far
-											<br /> better than any saying can. Hence, we
+											and driving real growth.
+											<br /> They reject one-size-fits-all models, focusing instead on "Perfection along Constraints,"
 											<br />
-											founded ochi to help you persuade
-											<br /> colleagues and clients by creating eye-
-											<br />
-											opening presentations.
+											ensuring precision and impact. More than service providers, they are dedicated partners, invested in their clients' success.
 										</p>
 									</div>
 								</div>
