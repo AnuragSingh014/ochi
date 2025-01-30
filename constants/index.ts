@@ -799,197 +799,117 @@ export const achiveItems = [
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "fyde",
-      src: project1,
+      title: "Marketing Consulting",
       href: "/case/",
+      src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Brand Strategy Development",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "copywriting",
-            href: "services",
+            title: "Market Research & Consumer Insights​​",
+            href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "services",
+            title: "Digital Marketing",
+            href: "/GrowthStory",
          },
          {
             id: 4,
-            title: "slides design",
-            href: "services",
+            title: "Website Development​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 5,
+            title: "Social Media Marketing​",
+            href: "/GrowthStory",
          },
       ]
    },
    {
       id: 2,
-      title: "trawa",
-      src: project3,
+      title: "Business Consulting",
       href: "/case/",
+      src: project2,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Strategic Business Planning​",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "design research",
-            href: "services",
+            title: "Operational Excellence Consulting​",
+            href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "investor deck",
-            href: "services",
+            title: "Growth Strategy & Market Entry​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Business Model Innovation​​",
+            href: "/GrowthStory",
          },
       ]
    },
    {
       id: 3,
-      title: "premium blend",
-      src: project4,
+      title: "HR Consulting",
       href: "/case/",
+      src: project3,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Workforce Planning & Talent Acquisition",
+            href: "/GrowthStory",
+         },
+         {
+            id: 2,
+            title: "HR Policy Development & Compliance",
+            href: "/GrowthStory",
+         },
+         {
+            id: 3,
+            title: "HR Technology Implementation​",
+            href: "/GrowthStory",
+         },
+         {
+            id: 4,
+            title: "Employee Onboarding & Offboarding​​",
             href: "/GrowthStory",
          },
       ]
    },
    {
       id: 4,
-      title: "planetly",
-      src: project5,
+      title: "Virtual CFO",
       href: "/case/",
+      src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Financial Planning & Forecasting​",
             href: "/GrowthStory",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "Cash Flow Management​",
             href: "/GrowthStory",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "Budgeting & Cost Optimization",
             href: "/GrowthStory",
          },
          {
             id: 4,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 5,
-            title: "policy deck & playbook",
-            href: "/GrowthStory",
-         },
-         {
-            id: 6,
-            title: "sales deck",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 5,
-      title: "black box",
-      src: project8,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "investor deck",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "redesign",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "review",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 6,
-      title: "vise",
-      src: project2,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "agency",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "compony presentation",
-            href: "services",
-         },
-      ]
-   },
-   {
-      id: 7,
-      title: "soft start",
-      src: project9,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "sales desc",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 8,
-      title: "officevibe",
-      src: project7,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "brand template",
-            href: "/GrowthStory",
-         },
-      ]
-   },
-   {
-      id: 9,
-      title: "workiz easy",
-      src: project6,
-      href: "/case/",
-      links: [
-         {
-            id: 1,
-            title: "onboarding presentation",
-            href: "/GrowthStory",
-         },
-         {
-            id: 2,
-            title: "policy deck & playbook",
-            href: "/GrowthStory",
-         },
-         {
-            id: 3,
-            title: "sales deck",
+            title: "Financial Reporting & Analysis​",
             href: "/GrowthStory",
          },
       ]
