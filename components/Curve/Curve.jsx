@@ -6,10 +6,10 @@ import { text, curve, translate } from "@/motion";
 
 const routes = {
 	"/": "Home",
-	"/GrowthStory": "Services",
-	"/presentation": "Our Work",
-	"/influidity": "About Us",
-	"/insights": "Insights",
+	"/GrowthStory": "Growth Story",
+	"/Consulting": "Consulting",
+	"/influidity": "Influidity",
+	"/career": "Career",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
 };

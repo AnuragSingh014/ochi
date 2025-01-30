@@ -90,7 +90,7 @@ export default function Hero() {
 				className="padding-y"
 				data-scroll
 				data-scroll-speed="-.1">
-				<Eyes className="w-[300px] h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px] sm:flex-col xm:flex-col" />
+				{/* <Eyes className="w-[300px] h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px] sm:flex-col xm:flex-col" /> */}
 			</div>
 			<div className="padding-x">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">

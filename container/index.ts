@@ -44,3 +44,32 @@ export { default as Chelenge } from './workiz-page/Chelenge';
 export { default as Result } from './workiz-page/Result';
 export { default as Credit } from './workiz-page/Credit';
 export { default as VideoWorkiz } from './workiz-page/Video';
+
+// workiz page
+export { default as Heroworkiz2 } from './workiz2-page/Hero';
+export { default as Aboutworkiz2 } from './workiz2-page/About';
+export { default as Works2 } from './workiz2-page/Works';
+export { default as Chelenge2 } from './workiz2-page/Chelenge';
+export { default as Result2 } from './workiz2-page/Result';
+export { default as Credit2 } from './workiz2-page/Credit';
+export { default as VideoWorkiz2 } from './workiz2-page/Video';
+
+
+// workiz page
+export { default as Heroworkiz3 } from './workiz3-page/Hero';
+export { default as Aboutworkiz3 } from './workiz3-page/About';
+export { default as Works3 } from './workiz3-page/Works';
+export { default as Chelenge3 } from './workiz3-page/Chelenge';
+export { default as Result3 } from './workiz3-page/Result';
+export { default as Credit3 } from './workiz3-page/Credit';
+export { default as VideoWorkiz3 } from './workiz3-page/Video';
+
+
+// workiz page
+export { default as Heroworkiz4 } from './workiz4-page/Hero';
+export { default as Aboutworkiz4 } from './workiz4-page/About';
+export { default as Works4 } from './workiz4-page/Works';
+export { default as Chelenge4 } from './workiz4-page/Chelenge';
+export { default as Result4 } from './workiz4-page/Result';
+export { default as Credit4 } from './workiz4-page/Credit';
+export { default as VideoWorkiz4 } from './workiz4-page/Video';

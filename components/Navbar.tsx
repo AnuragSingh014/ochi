@@ -35,7 +35,7 @@ export default function Navbar() {
 							width={70}
 							height={70}
 						/> */}
-						<p className="font-semibold text-2xl">Influidity</p>
+						<p className="font-semibold text-2xl">Home</p>
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">

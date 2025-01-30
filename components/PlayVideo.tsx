@@ -78,7 +78,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 							</p>
 						</div>
 					</div>
-					<div
+					{/* <div
 						className="w-[200px] sm:w-[150px] sm:h-[150px] xm:w-[100px] xm:h-[100px] bg-white rounded-full flex items-center justify-center cursor-pointer"
 						onClick={togglePlay}>
 						<div className="relative w-full h-full">
@@ -94,7 +94,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 								{isPlaying ? "Pause" : "Play"}
 							</p>
 						</div>
-					</div>
+					</div> */}
 				</motion.div>
 				<div
 					onClick={togglePlay}

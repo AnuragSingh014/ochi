@@ -18,13 +18,13 @@ export const navbarItems = [
       id: 2,
       // title: "Our work",
       title: "Consulting",
-      href: "/presentation",
+      href: "/consulting",
    },
    {
       id: 4,
       // title: "Insights",
       title: "Career",
-      href: "/insights",
+      href: "/career",
    },
    {
       id: 5,
@@ -233,7 +233,7 @@ export const projectItem = [
    {
       id: 1,
       title: "Marketing Consulting",
-      href: "/case/",
+      href: "/marketingconsulting/",
       src: project1,
       links: [
          {
@@ -266,7 +266,7 @@ export const projectItem = [
    {
       id: 2,
       title: "Business Consulting",
-      href: "/case/",
+      href: "/businessconsulting/",
       src: project2,
       links: [
          {
@@ -294,7 +294,7 @@ export const projectItem = [
    {
       id: 3,
       title: "HR Consulting",
-      href: "/case/",
+      href: "/hrconsulting/",
       src: project3,
       links: [
          {
@@ -322,7 +322,7 @@ export const projectItem = [
    {
       id: 4,
       title: "Virtual CFO",
-      href: "/case/",
+      href: "/virtualcfo/",
       src: project4,
       links: [
          {
@@ -800,7 +800,7 @@ export const presentationProjectItem = [
    {
       id: 1,
       title: "Marketing Consulting",
-      href: "/case/",
+      href: "/marketingconsulting/",
       src: project1,
       links: [
          {
@@ -833,7 +833,7 @@ export const presentationProjectItem = [
    {
       id: 2,
       title: "Business Consulting",
-      href: "/case/",
+      href: "/businessconsulting/",
       src: project2,
       links: [
          {
@@ -861,7 +861,7 @@ export const presentationProjectItem = [
    {
       id: 3,
       title: "HR Consulting",
-      href: "/case/",
+      href: "/hrconsulting/",
       src: project3,
       links: [
          {
