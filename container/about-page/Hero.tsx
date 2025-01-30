@@ -24,16 +24,16 @@ export default function Hero() {
 											duration: 1,
 											delay: 1.5,
 										}}>
-										<Image
+										{/* <Image
 											width={120}
 											height={50}
 											src={ochiside}
 											alt="img"
 											className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
-										/>
+										/> */}
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										OCHI DESIGN
+										InfluidityDESIGN
 									</h1>
 								</div>
 							</h1>
@@ -58,7 +58,7 @@ export default function Hero() {
 									</div>
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-										With a no-fluff, results-driven approach, Influidity designs solutions that work in the real world—cutting inefficiencies, enhancing customer experiences,
+										With a no-fluff, results-driven approach, Influidity   designs solutions that work in the real world—cutting inefficiencies, enhancing customer experiences,
 											<br />
 											and driving real growth.
 											<br /> They reject one-size-fits-all models, focusing instead on "Perfection along Constraints,"
@@ -95,7 +95,7 @@ export default function Hero() {
 			<div className="padding-x">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					We save businesses from ugly and
-					<br className="sm:hidden xm:hidden" /> ineffective presentations.
+					<br className="sm:hidden xm:hidden" /> ineffective Consulting.
 				</h1>
 			</div>
 		</section>

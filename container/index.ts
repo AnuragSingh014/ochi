@@ -5,6 +5,7 @@ export { default as PlayVideo } from "./home-page/Video";
 export { default as Projects } from "./home-page/Projects";
 export { default as Clients } from "./home-page/Clients";
 export { default as VideoHome } from './home-page/Video';
+export { default as Cards} from './home-page/Cards'
 
 // services page
 export { default as Heroservices } from "./services-page/Hero";
@@ -14,7 +15,7 @@ export { default as Clientsservices } from "./services-page/Clients";
 export { default as Expectations } from "./services-page/Expectations";
 export { default as Archive } from "./services-page/Archive";
 
-// presentation page
+// Consulting page
 export { default as Heropresentation } from './presentation-page/Hero';
 export { default as Projectspresentation } from './presentation-page/Projects';
 export { default as Publication } from './presentation-page/Publication';

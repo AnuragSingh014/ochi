@@ -31,7 +31,7 @@ export default function Navbar() {
 					<Link href={"/"}>
 						{/* <Image
 							src={logo}
-							alt="ochi logo"
+							alt="Influiditylogo"
 							width={70}
 							height={70}
 						/> */}

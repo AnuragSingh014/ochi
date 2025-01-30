@@ -1,4 +1,4 @@
-# Ochi Website Clone created with
+# Influidity  Website Clone created with
 
 ✅ Next JS
 ✅ React JS

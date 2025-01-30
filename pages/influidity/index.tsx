@@ -22,7 +22,7 @@ export default function About() {
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroabout />
 				<Aboutabout />
-				<Team />
+				{/* <Team /> */}
 				<Principles />
 				<Partners />
 				<Insights />

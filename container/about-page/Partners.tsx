@@ -43,7 +43,7 @@ export default function Principles() {
 				</div>
 			</div>
 			<div className="padding-x padding-y">
-				<Ratings />
+				{/* <Ratings /> */}
 			</div>
 		</section>
 	);

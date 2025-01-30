@@ -55,7 +55,7 @@ export default function Hero() {
 											them? We need to know
 											<br className="sm:hidden xm:hidden" /> your audience well
 											enough to deliver a <br className="sm:hidden xm:hidden" />
-											personalized presentation that they truly
+											personalized Consulting that they truly
 											<br className="sm:hidden xm:hidden" />
 											care about.
 										</p>

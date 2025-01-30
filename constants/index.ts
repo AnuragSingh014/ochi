@@ -98,7 +98,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Review",
       src: client01,
-      review: "Working with Influidity Solution was a breath of fresh air. They didn’t just create ads—they gave us an emotional connection with our audience.",
+      review: "Working with Influidity   Solution was a breath of fresh air. They didn’t just create ads—they gave us an emotional connection with our audience.",
       links: [
          {
             id: 1,
@@ -115,7 +115,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Review",
       src: client02,
-      review: "The team at Influidity Solution completely changed our digital presence. Before working with them, we barely had a digital footprint, and now our page is dynamic, engaging and well maintained.",
+      review: "The team at Influidity   Solution completely changed our digital presence. Before working with them, we barely had a digital footprint, and now our page is dynamic, engaging and well maintained.",
       links: [
          {
             id: 1,
@@ -154,7 +154,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Review",
       src: client04,
-      review: "From strategy to execution, Influidity Solution delivered beyond expectations. Their expertise in digital marketing helped us reach the right customers at the right time.",
+      review: "From strategy to execution, Influidity   Solution delivered beyond expectations. Their expertise in digital marketing helped us reach the right customers at the right time.",
       links: [
          {
             id: 1,
@@ -175,7 +175,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Review",
       src: client05,
-      review: "The professionalism and dedication of the Influidity Solution team are unmatched. They understood our vision and transformed it into compelling content that drives results.",
+      review: "The professionalism and dedication of the Influidity   Solution team are unmatched. They understood our vision and transformed it into compelling content that drives results.",
       links: [
          {
             id: 1,
@@ -208,7 +208,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Review",
       src: client07,
-      review: "Partnering with Influidity Solution was the best decision for our business. Their tailored strategies and keen insights have led to increased brand awareness and customer engagement.",
+      review: "Partnering with Influidity   Solution was the best decision for our business. Their tailored strategies and keen insights have led to increased brand awareness and customer engagement.",
       links: [
          {
             id: 1,
@@ -374,7 +374,7 @@ export const serviceProcessItems = [
       phase: "03. Phase",
       name: "Design",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression.",
+      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the Consulting wins people's hearts and leaves a perfect long-lasting impression.",
       button: "read"
    },
    {
@@ -424,7 +424,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our Consulting decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
       links: [
          {
             id: 1,
@@ -470,7 +470,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Influiditybrought a certain level of professionalism into our Consulting that we were lacking before. When I showed our management and HR teams the Consulting Influidity  developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
@@ -528,7 +528,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from Influidity  was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -549,7 +549,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Influidityhas an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Influidity  delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Influidity  design again for sure!",
       links: [
          {
             id: 1,
@@ -622,7 +622,7 @@ export const serviceCapaybilitiesItem = [
       id: 1,
       src1: capaybilities1,
       title1: "RAISE FUNDS:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor Consulting may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
       subTitle: "Projects",
       links1: [
          {
@@ -670,7 +670,7 @@ export const serviceCapaybilitiesItem = [
       id: 2,
       src1: capaybilities3,
       title1: "HIRE & MANAGE PEOPLE:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
+      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor Consulting may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
       subTitle: "Projects",
       links1: [
          {
@@ -772,29 +772,29 @@ export const expectationsItems = [
       title1: "06",
       subTitle1: "Limited Amount of Client",
       btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
+      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the Consulting as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
    },
 ];
 
 export const achiveItems = [
    {
       id: 1,
-      title1: ["100+"],
-      title2: ["$280+"],
-      subTitle1: "Clients from 17 Countries",
-      subTitle2: "Millions raised for our clients",
+      title1: ["500+"],
+      title2: ["1000+"],
+      subTitle1: "Ideas Delivered",
+      subTitle2: "Campaign Launched",
    },
    {
       id: 2,
-      title1: ["90%"],
+      title1: ["20k+"],
       title2: ["98%"],
-      subTitle1: "Of our clients come back",
-      subTitle2: "Net Promoting Score",
+      subTitle1: "Engagement Hours",
+      subTitle2: "Client Satisfaction",
    },
 ];
 
 
-// presentation page
+// Consulting page
 
 export const presentationProjectItem = [
    {
@@ -984,7 +984,7 @@ export const latestItemss = [
             title: "presentation template"
          },
       ],
-      title: "Developing compony-wide presentation template for premium blend.",
+      title: "Developing compony-wide Consulting template for premium blend.",
       subTitle: "By Ihor Hulyahrodskyy",
       date: "07 Dec 2022"
    },
@@ -1053,13 +1053,13 @@ export const aboutPartberItems = [
       id: 1,
       src: planetly,
       title: "Planetly",
-      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our Consulting decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
    },
    {
       id: 2,
       src: officevibe,
       title: "Officevibe",
-      para: "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+      para: "Influidityhas an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Influidity  delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Influidity  design again for sure!"
    },
    {
       id: 3,
@@ -1077,7 +1077,7 @@ export const aboutPartberItems = [
    //    id: 5,
    //    src: lexus,
    //    title: "Lexus",
-   //    para: "Thanks for your great work! The communication was excellent, the team was able to grasp in detail what we wanted and plastered it on the company presentation and sales deck. Their work is absolutely amazing."
+   //    para: "Thanks for your great work! The communication was excellent, the team was able to grasp in detail what we wanted and plastered it on the company Consulting and sales deck. Their work is absolutely amazing."
    // },
    // {
    //    id: 6,
