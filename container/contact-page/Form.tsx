@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 // Simple custom alert component
-const Alert = ({ children, type }) => (
+const Alert: React.FC<{ children: React.ReactNode; type: 'error' | 'success' }> = ({ children, type }) => (
   <div className={`p-4 rounded-lg mb-6 ${
     type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : 
     'bg-green-50 text-green-700 border border-green-200'
@@ -26,17 +26,17 @@ export default function Form() {
   const [success, setSuccess] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
-  const isValidEmail = (email) => {
+  const isValidEmail = (email: string): boolean => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  };
+   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name as keyof FormData]: value }));
     setError("");
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     setError("");
@@ -49,7 +49,7 @@ export default function Form() {
     }
 
     const requiredFields = ["name", "organisation", "serviceType", "elaboration"];
-    const missingFields = requiredFields.filter(field => !formData[field]);
+    const missingFields = requiredFields.filter((field: any) => !formData[field as keyof typeof formData]);
     
     if (missingFields.length > 0) {
       setError("Please fill in all required fields");
