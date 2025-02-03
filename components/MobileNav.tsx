@@ -14,12 +14,13 @@ export default function MobileNav() {
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
 				<Link href={"/"}>
-					<Image
+					{/* <Image
 						src={logo}
 						alt="Influiditylogo"
 						width={70}
 						height={70}
-					/>
+					/> */}
+					<p className="font-semibold text-2xl">Home</p>
 				</Link>
 				<HiOutlineMenuAlt4
 					onClick={() => setToggle(true)}

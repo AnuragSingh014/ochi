@@ -399,7 +399,7 @@ export const serviceClientsItem = [
    {
       id: 1,
       website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      href: "",
       title: "Services:",
       name: "William Barnes",
       src: client01,

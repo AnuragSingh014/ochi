@@ -1,140 +1,318 @@
+import { useState } from "react";
 import Link from "next/link";
-import { RoundButton } from "@/components";
+
+// Simple custom alert component
+const Alert = ({ children, type }) => (
+  <div className={`p-4 rounded-lg mb-6 ${
+    type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : 
+    'bg-green-50 text-green-700 border border-green-200'
+  }`}>
+    {children}
+  </div>
+);
 
 export default function Form() {
-	return (
-		<section className="w-full padding-x padding-y">
-			<div className="w-full flex flex-col gap-[15px]">
-				<div className="w-full flex gap-[15px] sm:flex-col xm:flex-col">
-					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Hi! My name is
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Enter your name*"
-								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
-							/>
-						</div>
-					</div>
-					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							and I represent 
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="organisation name type here*"
-								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
-							/>
-						</div>
-					</div>
-				</div>
-				<div className="w-full flex gap-[10px]">
-					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							I’m reaching out to inquire about your services, specifically
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Your service type here*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
-							/>
-						</div>
-					</div>
-				</div>
-				<div className="w-full flex gap-[10px]">
-					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							To provide more context, my requirement involves
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Elaboration on requirement*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
-							/>
-						</div>
-					</div>
-				</div>
-				<div className="w-full flex gap-[10px]">
-					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							For further communication, feel free to contact me at
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Contact number*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
-							/>
-						</div>
-					</div>
-				</div>
-				<div className="w-full flex gap-[10px]">
-					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							or 
-							</h2>
-						</div>
-						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Email id*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
-							/>
-						</div>
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-							Looking forward to hearing from you!
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
+  const [formData, setFormData] = useState({
+    name: "",
+    organisation: "",
+    serviceType: "",
+    elaboration: "",
+    phone: "",
+    email: "",
+  });
 
-			<div className="w-full flex items-center justify-end sm:justify-start xm:justify-start pt-[50px]">
-				<div className="flex sm:flex-col xm:flex-col gap-[25px]">
-					<div className="flex gap-[10px] items-center">
-						<div className="flex gap-[10px]">
-							<input
-								type="checkbox"
-								className="w-[30px]"
-							/>
-							<p className="paragraph text-secondry font-NeueMontreal font-normal">
-								I agree with the
-							</p>
-						</div>
-						<Link
-							className="paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover"
-							href={"/privacy"}>
-							Privacy Policy
-						</Link>
-					</div>
-					<div className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
-						<RoundButton
-							bgcolor="#212121"
-							href="/"
-							title="send inquiry"
-							className="bg-white text-black"
-							style={{ color: "#fff" }}
-						/>
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
+
+  const isValidEmail = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    setError("");
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+    setSuccess("");
+
+    if (!privacyAccepted) {
+      setError("Please accept the privacy policy to continue");
+      setLoading(false);
+      return;
+    }
+
+    const requiredFields = ["name", "organisation", "serviceType", "elaboration"];
+    const missingFields = requiredFields.filter(field => !formData[field]);
+    
+    if (missingFields.length > 0) {
+      setError("Please fill in all required fields");
+      setLoading(false);
+      return;
+    }
+
+    if (!formData.email && !formData.phone) {
+      setError("Please provide either an email or phone number");
+      setLoading(false);
+      return;
+    }
+
+    if (formData.email && !isValidEmail(formData.email)) {
+      setError("Please enter a valid email address");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch("https://admin-kappa-swart.vercel.app/api/contact/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSuccess("Thank you! Your inquiry has been sent successfully.");
+        setFormData({
+          name: "",
+          organisation: "",
+          serviceType: "",
+          elaboration: "",
+          phone: "",
+          email: "",
+        });
+        setPrivacyAccepted(false);
+      } else {
+        setError(result.error || "Failed to send inquiry. Please try again.");
+      }
+    } catch (err) {
+      setError("Unable to connect to server. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const inputClasses = "w-full bg-transparent border-b border-[#21212155] focus:border-secondry outline-none px-2 py-1 text-4xl";
+  const textClasses = "text-5xl  font-bold text-[#333]";
+
+  return (
+    <form onSubmit={handleSubmit} className="max-w-5xl mx-auto text-2xl">
+      <div className="p-8">
+        <h2 className="text-lg text-gray-600 mb-6">Fill the form below:</h2>
+        
+        {(error || success) && (
+          <Alert type={error ? "error" : "success"}>
+            {error || success}
+          </Alert>
+        )}
+
+        <div className="space-y-8 text-2xl">
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <span className={textClasses} >Hi! My name is</span>
+            <input
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              type="text"
+              placeholder="Enter your name*"
+              className={`${inputClasses} min-w-[200px] flex-1`}
+              aria-required="true"
+            />
+            <span className={textClasses}>and I represent</span>
+            <input
+              name="organisation"
+              value={formData.organisation}
+              onChange={handleChange}
+              type="text"
+              placeholder="organisation name type here*"
+              className={`${inputClasses} min-w-[200px] flex-1`}
+              aria-required="true"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <span className={textClasses}>I'm reaching out to inquire about your services, specifically</span>
+            <input
+              name="serviceType"
+              value={formData.serviceType}
+              onChange={handleChange}
+              type="text"
+              placeholder="Your service type here*"
+              className={`${inputClasses} min-w-[300px] flex-1`}
+              aria-required="true"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <span className={textClasses}>To provide more context, my requirement involves</span>
+            <input
+              name="elaboration"
+              value={formData.elaboration}
+              onChange={handleChange}
+              type="text"
+              placeholder="Elaboration on requirement*"
+              className={`${inputClasses} min-w-[300px] flex-1`}
+              aria-required="true"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <span className={textClasses}>For further communication, feel free to contact me at</span>
+            <input
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              type="tel"
+              placeholder="Contact number*"
+              className={`${inputClasses} min-w-[200px] flex-1`}
+            />
+          </div>
+
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
+            <span className={textClasses}>and</span>
+            <input
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              type="email"
+              placeholder="Email id*"
+              className={`${inputClasses} min-w-[200px] flex-1`}
+            />
+            <span className={textClasses}>Looking forward to hearing from you!</span>
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-2">
+            <input
+              id="privacy"
+              type="checkbox"
+              checked={privacyAccepted}
+              onChange={(e) => setPrivacyAccepted(e.target.checked)}
+              className="w-5 h-5"
+            />
+            <label htmlFor="privacy" className="text-gray-700">
+              I agree with the{" "}
+              <Link href="/privacy" className="font-medium underline hover:text-primary">
+                Privacy Policy
+              </Link>
+            </label>
+          </div>
+
+          <button
+            type="submit"
+            disabled={loading || !privacyAccepted}
+            className="bg-secondry text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {loading ? "Sending..." : "Send Inquiry"}
+          </button>
+        </div>
+      </div>
+    </form>
+  );
 }
+
+
+
+// "use client";
+
+// import Link from "next/link";
+// import { RoundButton } from "@/components";
+
+// export default function Form() {
+	
+
+	
+// 	return (
+// 		<section className="w-full padding-x padding-y">
+// 			 className="w-full flex flex-col gap-[15px]">
+// 				<div className="w-full flex gap-[15px] sm:flex-col xm:flex-col">
+// 					{/* Name Input */}
+// 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
+// 						<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
+// 							Hi! My name is
+// 						</h2>
+// 						<input
+// 							type="text"
+// 							name="name"
+// 							value={formData.name}
+// 							onChange={handleChange}
+// 							placeholder="Enter your name*"
+// 							className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
+// 						/>
+// 					</div>
+
+// 					{/* Organisation Input */}
+// 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
+// 						<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
+// 							and I represent
+// 						</h2>
+// 						<input
+// 							type="text"
+// 							name="organisation"
+// 							value={formData.organisation}
+// 							onChange={handleChange}
+// 							placeholder="Organisation name*"
+// 							className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
+// 						/>
+// 					</div>
+// 				</div>
+
+// 				{/* Elaboration Input */}
+// 				<div className="w-full flex gap-[10px]">
+// 					<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
+// 						To provide more context, my requirement involves
+// 					</h2>
+// 					<input
+// 						type="text"
+// 						name="elaboration"
+// 						value={formData.elaboration}
+// 						onChange={handleChange}
+// 						placeholder="Elaboration on requirement*"
+// 						className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
+// 					/>
+// 				</div>
+
+// 				{/* Email Input */}
+// 				<div className="w-full flex gap-[10px]">
+// 					<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
+// 						or
+// 					</h2>
+// 					<input
+// 						type="email"
+// 						name="email"
+// 						value={formData.email}
+// 						onChange={handleChange}
+// 						placeholder="Email ID*"
+// 						className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
+// 					/>
+// 				</div>
+
+// 				{/* Error Message */}
+// 				{error && <p className="text-red-500">{error}</p>}
+
+// 				{/* Success Message */}
+// 				{success && <p className="text-green-500">{success}</p>}
+
+// 				{/* Submit Button */}
+// 				<div className="w-full flex justify-end pt-[50px]">
+// 					<button
+// 						type="submit"
+// 						className="bg-secondry text-white px-6 py-2 rounded-full cursor-pointer"
+// 						disabled={loading}>
+// 						{loading ? "Sending..." : "Send Inquiry"}
+// 					</button>
+// 				</div>
+// 			</form>
+// 		</section>
+// 	);
+// }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { awwwards, ochiside } from "@/public";
+
 
 
 // Shooting stars configuration
