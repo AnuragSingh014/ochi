@@ -1,4 +1,4 @@
-# Influidity  Website Clone created with
+# Influidity  Website  created with
 
 ✅ Next JS
 ✅ React JS

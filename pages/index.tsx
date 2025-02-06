@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
 import { About, Cards, Clients, Hero, Projects, VideoHome } from "@/container";
+import TrustedPartners from "@/container/home-page/TrustedPartner";
 
 export default function Home() {
 	useEffect(() => {
@@ -14,6 +15,7 @@ export default function Home() {
 	return (
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
+				
 				<Hero />
 				<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 					<Marquee
@@ -26,6 +28,7 @@ export default function Home() {
 				<Projects />
 				{/* <Clients /> */}
 				<Cards />
+				
 				<Ready />
 			</Curve>
 		</>

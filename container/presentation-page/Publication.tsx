@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import { Marquee } from "@/components";
 import { publicationItems } from "@/constants";
 
 export default function Publication() {
+	
 	return (
 		<section className="w-full bg-marquee padding-y rounded-t-[20px] mt-[-10px] z-30 relative">
 			<div className="w-full bg-marquee z-10 relative">

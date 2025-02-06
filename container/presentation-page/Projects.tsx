@@ -26,10 +26,7 @@ export default function Projects() {
 					<h2 className="sub-heading font-normal padding-x font-NeueMontreal text-secondry">
 					Your audience is out there, but are they really listening?
 						<br className="sm:hidden xm:hidden" />
-						In a market full of distractions, we help businesses craft messages that matter and deliver them with precision.
-						 Marketing isn’t about shouting louder, it’s about understanding what your customers need and speaking directly to it.
-						  Whether you’re building a brand, launching a campaign, or looking to boost your results, we provide strategies that aren’t just creative but practical.
-						   From finding your voice to driving conversions, we make sure every effort works toward growth that last.​
+						that people care about.
 					</h2>
 				</div>
 				<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">

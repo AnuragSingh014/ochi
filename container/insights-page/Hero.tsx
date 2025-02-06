@@ -70,14 +70,15 @@ export default function Hero() {
           </div>
 		  <div className="w-full border-t border-[#21212155]">
               <p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
-              Influidity is all about embracing your unique individuality .
-               The DNA of Team Influidity is diversity.
-                We provide an environment where you can have your own voice and a team that will always have your back.
-                 We expect people working with us to take initiative and find solution to problems.
-                  We don’t believe that mistakes can not be made but it should not be repeated. ​
-              </p>
-              <p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
-              Send us your resume and experience what it feels like to be a part of a team that believes in making a difference and creating impact through their work!​ ​
+              We create&nbsp;
+                <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
+                  eye-catching&nbsp;
+                </span>
+                and&nbsp;
+                <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
+                  eye-opening&nbsp;
+                </span>
+                presentations that educate, inspire and influence action.
               </p>
             </div>
 		  <Form />

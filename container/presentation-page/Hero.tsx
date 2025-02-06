@@ -1,3 +1,4 @@
+"use client";
 import { Eyes } from "@/components";
 
 export default function Hero() {

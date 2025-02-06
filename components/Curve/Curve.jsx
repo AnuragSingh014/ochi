@@ -7,11 +7,12 @@ import { text, curve, translate } from "@/motion";
 const routes = {
 	"/": "Home",
 	"/GrowthStory": "Growth Story",
-	"/Consulting": "Consulting",
+	"/consulting": "Consulting",
 	"/influidity": "Influidity",
 	"/career": "Career",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
+
 };
 
 const anim = (variants) => {
