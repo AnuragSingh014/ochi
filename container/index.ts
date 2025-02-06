@@ -45,7 +45,7 @@ export { default as Chelenge } from './workiz-page/Chelenge';
 export { default as Result } from './workiz-page/Result';
 export { default as Credit } from './workiz-page/Credit';
 export { default as VideoWorkiz } from './workiz-page/Video';
-
+export { default as ExpectationsWorkiz} from './workiz-page/Expectations'
 // workiz page
 export { default as Heroworkiz2 } from './workiz2-page/Hero';
 export { default as Aboutworkiz2 } from './workiz2-page/About';

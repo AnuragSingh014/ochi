@@ -11,7 +11,8 @@ import {
 import { useEffect } from "react";
 import { Curve, Ready } from "@/components";
 
-export default function Work() {
+import dynamic from "next/dynamic";
+ function Work() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -24,12 +25,14 @@ export default function Work() {
 				<Heroworkiz3 />
 				<Aboutworkiz3 />
 				<Chelenge3 />
-				<VideoWorkiz3 />
+				{/* <VideoWorkiz3 />
 				<Result3 />
-				<Credit3 />
+				<Credit3 /> */}
 				<Works3/>
 				<Ready />
 			</Curve>
 		</>
 	);
 }
+
+export default dynamic (() => Promise.resolve(Work), {ssr: false})

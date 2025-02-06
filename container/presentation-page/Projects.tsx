@@ -4,6 +4,7 @@ import { ProjectCard, Tags } from "@/components";
 import { presentationProjectItem } from "@/constants";
 
 import { LinkHover } from "@/animation";
+import dynamic from "next/dynamic";
 
 const footerItems = [
   {
@@ -28,7 +29,7 @@ const footerItems = [
   },
 ];
 
-export default function Projects() {
+function Projects() {
   const container = useRef(null);
   return (
     <div className="w-full" ref={container}>
@@ -115,3 +116,6 @@ export default function Projects() {
     </div>
   );
 }
+
+
+export default dynamic (() => Promise.resolve(Projects), {ssr: false})

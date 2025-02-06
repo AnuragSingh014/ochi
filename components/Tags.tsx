@@ -1,7 +1,9 @@
+"use client";
 import Link from "next/link";
 import { Rounded } from "@/components";
+import dynamic from "next/dynamic";
 
-export default function Tags({
+function Tags({
 	item,
 	bgcolor,
 	className,
@@ -26,3 +28,6 @@ export default function Tags({
 		</div>
 	);
 }
+
+
+export default dynamic (() => Promise.resolve(Tags), {ssr: false})

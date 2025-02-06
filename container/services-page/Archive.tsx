@@ -5,11 +5,11 @@ import { TextMask } from "@/animation";
 
 export default function Archive() {
 	return (
-		<section className="w-full">
+		<section className="w-full padding-y">
 			<div className="padding-x w-full">
 				<BackgroundImg src={background} />
 			</div>
-			<div className="w-full padding-y">
+			{/* <div className="w-full padding-y">
 				<div className="w-full padding-x pt-[20px] border-t border-[#21212155] flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="paragraph font-medium font-NeueMontreal">
@@ -49,7 +49,7 @@ export default function Archive() {
 						))}
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</section>
 	);
 }

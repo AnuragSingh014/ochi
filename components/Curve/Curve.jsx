@@ -12,7 +12,11 @@ const routes = {
 	"/career": "Career",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
-
+	"/marketingconsulting": "Marketing Consulting",
+	"/businessconsulting": "Business Consulting",
+	"/virtualcfo": "Virtual CFO",
+	"/hrconsulting": "HR Consulting",
+	"/consulting": "Consulting",
 };
 
 const anim = (variants) => {

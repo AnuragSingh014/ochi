@@ -6,8 +6,9 @@ import {
 	Projectspresentation,
 	Publication,
 } from "@/container";
+import dynamic from "next/dynamic";
 
-export default function Presentation() {
+function Presentation() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -25,3 +26,5 @@ export default function Presentation() {
 		</>
 	);
 }
+
+export default dynamic (() => Promise.resolve(Presentation), {ssr: false})

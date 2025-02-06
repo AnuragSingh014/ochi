@@ -1,3 +1,4 @@
+
 import { TMarqueeProps } from "@/types";
 import { TextMarquee } from "@/animation";
 

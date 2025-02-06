@@ -36,7 +36,7 @@ export default function Projects() {
 					</div>
 				))}
 			</div>
-			<div className="w-full flex justify-center">
+			<div className="w-full flex justify-center pb-12">
 				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 					<RoundButton
 						href="/consulting"

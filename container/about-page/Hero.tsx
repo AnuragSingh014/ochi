@@ -43,7 +43,7 @@ export default function Hero() {
           <div className="w-full border-t border-[#21212155] pt-[20px]">
             <div className="w-full flex flex-col justify-between  padding-x sm:flex-col xm:flex-col gap-[20px]">
               <div className="w-full sm:w-full xm:w-full mt-4">
-                <h3 className="font-semibold text-secondry 	text-4xl font-NeueMontreal">
+                <h3 className="font-semibold text-secondry 	text-5xl font-NeueMontreal">
                   About us:
                 </h3>
               </div>
@@ -54,14 +54,14 @@ export default function Hero() {
                       Business is not about checking boxes or templates—it’s
                       about solving real problems, adapting to change, and
                       building something that lasts.
-                      <br /> Founded in 2017, Influidity Solution is built on
+                       Founded in 2017, Influidity Solution is built on
                       two principles: Infinity for endless possibilities, and
                       Fluidity for adaptability.
-                      <br />
+                      
                       What does that mean for you? It means strategies that grow
                       as you grow, ideas that solve problems before they arise,
                       and a partner committed to your long-term success.
-                      <br />
+                      
                       Whether you’re launching a startup, scaling your business,
                       or redefining your legacy, we cut through the noise to
                       deliver what works.
@@ -72,13 +72,13 @@ export default function Hero() {
                     <p className="paragraph font-NeueMontreal text-secondry">
                       No fluff. No jargon. Just solutions that make your
                       business move smarter, adapt faster, and grow stronger.
-                      <br /> We don’t sell services—we get you where you need to
+                       We don’t sell services—we get you where you need to
                       be with strategies that don’t just work on paper but
                       thrive in the real world.
-                      <br />
+                      
                       At Influidity, growth should be natural, seamless, and
                       inevitable.
-                      <br />
+                      
                       When you get it right, success doesn’t have to be forced.
                       It just flows.
                     </p>
@@ -87,10 +87,10 @@ export default function Hero() {
                   <div className="flex flex-col gap-y-[20px]">
   <p className="paragraph font-NeueMontreal text-secondry">
     The rules of business have changed. In a world where speed and precision are everything, there’s no room for half-measures.
-    <br /> At Influidity Solution, we don’t just advise—we build solutions that work in the real world, where challenges are constant, and results matter.
-    <br />
+     At Influidity Solution, we don’t just advise—we build solutions that work in the real world, where challenges are constant, and results matter.
+    
     Since 2017, we’ve recognized that every organization is unique, with its own goals and challenges.
-    <br />
+    
     That’s why our strategies are tailored to fit your business—designed to drive real impact where it matters most.
   </p>
 </div>
@@ -98,10 +98,10 @@ export default function Hero() {
 <div className="flex flex-col gap-y-[20px]">
   <p className="paragraph font-NeueMontreal text-secondry">
     No shortcuts. No one-size-fits-all solutions.
-    <br /> Our approach is built on "Perfection along Constraints"—focusing on what truly moves the needle.
-    <br />
+     Our approach is built on "Perfection along Constraints"—focusing on what truly moves the needle.
+    
     Whether it’s eliminating inefficiencies, enhancing customer experiences, or cutting unnecessary costs, we help businesses do more than just adapt—we help them thrive.
-    <br />
+    
     At Influidity Solution, we’re more than service providers. We’re partners invested in your success—because when you grow, we grow.
   </p>
 </div>
@@ -111,7 +111,7 @@ export default function Hero() {
                 <div className="flex w-fit h-fit gap-[5px] group">
                   <div className="rounded-[50px] border border-[#21212199] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
                     <Link
-                      href="/case"
+                      href="/consulting"
                       className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in"
                     >
                       Our Work
