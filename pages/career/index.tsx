@@ -16,7 +16,7 @@ export default function Insights() {
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroinsights />
 				
-				<Publicationinsights />
+				{/* <Publicationinsights /> */}
 			</Curve>
 		</>
 	);

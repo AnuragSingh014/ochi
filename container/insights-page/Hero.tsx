@@ -5,6 +5,8 @@ import { Rounded, Tags } from "@/components";
 import { motion } from "framer-motion";
 import { contactHero } from "@/public";
 import Form from "./Form";
+import { Marquee } from "@/components";
+import { publicationItems } from "@/constants";
 
 export default function Hero() {
   const str = [
@@ -82,46 +84,48 @@ export default function Hero() {
               </p>
             </div>
 		  <Form />
-          <div className="w-full border-t border-[#21212155] pt-[35px]">
-            <div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[20px]">
-              <div className="w-[50%] sm:w-full xm:w-full">
-                <h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-                  Latest insights:
-                </h3>
-              </div>
-              <div className="w-[50%] sm:w-full xm:w-full flex flex-wrap items-center gap-[10px]">
-                {str.map((item, i) => (
-                  <div key={i}>
-                    {item.id === 1 ? (
-                      <div
-                        className="w-fit rounded-[50px] border border-[#21212199] cursor-pointer bg-black"
-                        key={item.id}
-                      >
-                        <Link
-                          className="small-text font-NeueMontreal uppercase text-white"
-                          href={item.href}
-                        >
-                          <div className="py-[2px]">
-                            <p className="z-10 px-[15px]">{item.title}</p>
-                          </div>
-                        </Link>
-                      </div>
-                    ) : (
-                      <Tags
-                        bgcolor="#212121"
-                        item={item}
-                        className="hover:text-white"
-                      />
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-		  
+          
+          <section className="w-full bg-marquee padding-y rounded-t-[20px] mt-[-10px] z-30 relative">
+			<div className="w-full bg-marquee z-10 relative">
+				
+			</div>
+			<div className="w-full padding-x">
+				<div className="w-full flex justify-between pt-[20px] sm:flex-col xm:flex-col gap-y-[20px]">
+					<div className="w-[30%] sm:w-full xm:w-full">
+						<h3 className="paragraph font-medium text-white font-NeueMontreal">
+							Latest publication
+						</h3>
+					</div>
+					<div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
+						{publicationItems.map((item) => (
+							<div
+								className="w-full flex justify-between gap-[20px] sm:flex-col xm:flex-col"
+								key={item.id}>
+								<div className="w-full flex gap-[20px] rounded-[20px] flex-col">
+									<div className="group overflow-hidden rounded-[20px]">
+										<Image
+											src={item.src}
+											alt="asd"
+											className="w-full h-full group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]	"
+										/>
+									</div>
+									<div className="flex gap-x-[10px] items-center pb-[10px]">
+										<span className="w-[10px] h-[10px] rounded-full bg-white" />
+										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-white">
+											{item.title}
+										</h1>
+									</div>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</div>
+		</section>
+
           <div className="w-full padding-x">
             <div className="w-[50%] sm:w-full xm:w-full flex gap-[20px] padding-y sm:flex-col xm:flex-col gap-y-[20px]">
-              {latestItemss.map((item) => (
+              {/* {latestItemss.map((item) => (
                 <div key={item.id} className="group relative overflow-hidden">
                   <Link href={item.href}>
                     <div className="overflow-hidden rounded-[15px] transition cursor-pointer  transform duration-[1s] ease-[.4,0,.2,1]">
@@ -162,7 +166,8 @@ export default function Hero() {
                     </div>
                   </Link>
                 </div>
-              ))}
+              ))} */}
+              
             </div>
           </div>
         </div>
