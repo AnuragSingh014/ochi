@@ -10,57 +10,57 @@ const serviceProcessItems = [
     {
        id: 1,
        phase: "01. Phase",
-       name: "Discovery",
+       name: "Discover",
        src: phase1,
-       review: "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions.",
+       review: "We don't pitch generic solutions. We find companies that match our expertise and then craft a customized pitch-one that resonates with their unique needs, challenges, and aspirations.​",
        button: "read"
     },
     {
        id: 2,
        phase: "02. Phase",
-       name: "Storytelling",
+       name: "Understand",
        src: phase2,
-       review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
+       review: "We don't rely on surface-level insights. We delve into the organization's mission, people, processes, and customers to understand what drives-or hinders-success. That deep dive is where the real challenges worth solving lie.​",
        button: "read"
     },
     {
        id: 3,
        phase: "03. Phase",
-       name: "Design",
+       name: "Analyze",
        src: phase3,
-       review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the Consulting wins people's hearts and leaves a perfect long-lasting impression.",
+       review: "With data and insights, we try to find inefficiencies, risks, and opportunities. From reducing threats to unleashing locked-potential, we design practical-futuristic solutions​.",
        button: "read"
     },
     {
        id: 4,
        phase: "04. Phase",
-       name: "Feedback",
+       name: "Recommend",
        src: phase4,
-       review: "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears.",
+       review: "Insights are only as good as their execution. We deliver sharp, actionable recommendations that address root issues while building a foundation for long-term growth.​",
        button: "read"
     },
     {
        id: 5,
        phase: "05. Phase",
-       name: "Delivery",
+       name: "Strategize",
        src: phase5,
-       review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+       review: "We create a roadmap with senior leaders. This is not just about what to do but when and how to do it. Every plan is built to adapt to the challenges of 2025's fast-paced business landscape.​",
        button: "read"
     },
     {
        id: 6,
        phase: "06. Phase",
-       name: "Delivery",
+       name: "Execute",
        src: phase5,
-       review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+       review: "We don't stop at planning. We work shoulder-to-shoulder with teams to implement changes seamlessly, ensuring every step is actionable, measurable, and aligned with the vision.​",
        button: "read"
     },
     {
        id: 7,
        phase: "07. Phase",
-       name: "Delivery",
+       name: "Monitor & Evolve​",
        src: phase5,
-       review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+       review: "In 2025, standing still isn’t an option. We continuously monitor the results, fine-tune strategies, and adapt to new challenges, ensuring our solutions stay relevant and impactful.​",
        button: "read"
     },
  ];
@@ -77,7 +77,8 @@ export default function Process() {
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Holistic process
+					At Influidity, we believe true growth is about leaving room for targets and keeping the things that matter. Our foundation is based on values that define every decision, partnership, and milestone made. ​
+
 				</h1>
 			</div>
 			{serviceProcessItems.map((item) => (

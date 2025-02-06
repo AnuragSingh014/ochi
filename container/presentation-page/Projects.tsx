@@ -24,9 +24,12 @@ export default function Projects() {
 			<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
 				<div>
 					<h2 className="sub-heading font-normal padding-x font-NeueMontreal text-secondry">
-						Purpose driven, strategy-led consulting service
+					Your audience is out there, but are they really listening?
 						<br className="sm:hidden xm:hidden" />
-						that people care about.
+						In a market full of distractions, we help businesses craft messages that matter and deliver them with precision.
+						 Marketing isn’t about shouting louder, it’s about understanding what your customers need and speaking directly to it.
+						  Whether you’re building a brand, launching a campaign, or looking to boost your results, we provide strategies that aren’t just creative but practical.
+						   From finding your voice to driving conversions, we make sure every effort works toward growth that last.​
 					</h2>
 				</div>
 				<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
