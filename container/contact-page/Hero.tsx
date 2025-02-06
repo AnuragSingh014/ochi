@@ -32,11 +32,6 @@ export default function Hero() {
 						JOURNEY WITH US
 					</h1>
 				</div>
-				<div className="w-full pb-[15px]">
-					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-						Fill the form below:
-					</h3>
-				</div>
 			</div>
 		</section>
 	);

@@ -18,12 +18,18 @@ export default function Principles() {
 							alt="img"
 							className="w-full rounded-[15px]"
 						/>
-						<div className="flex flex-col gap-[20px]">
+						<div className="flex flex-col items-center justify-center gap-[20px]">
+							<div className="flex items-center justify-center">
+
+						<p className="sub-paragraph] font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide link-flash w-[9vw] cursor-pointer">
+							Straightforward:
+						</p>
+							</div>
 							<p className="paragraph font-NeueMontreal text-secondry">
-								Whether the Consulting needs to convince or <br />
+								Whether the Consulting needs to convince or 
 								educate it always has to change audience
-								<br /> perception. We seek insights to make decks
-								<br /> unexpectedly enlightening for our audience.
+								 perception. We seek insights to make decks
+								unexpectedly enlightening for our audience.
 							</p>
 						</div>
 					</div>
@@ -33,12 +39,18 @@ export default function Principles() {
 							alt="img"
 							className="w-full rounded-[15px]"
 						/>
-						<div className="flex flex-col gap-[20px]">
+						<div className="flex flex-col items-center justify-center gap-[20px]">
+							<div className="flex items-center justify-center">
+
+						<p className="sub-paragraph] font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide link-flash w-[9vw] cursor-pointer">
+							Straightforward:
+						</p>
+							</div>
 							<p className="paragraph font-NeueMontreal text-secondry">
-								The Consulting helps to see what&apos;s hidden,
-								<br /> unseen, or simply never known before. We use <br />
-								design to drive their attention, focus them to <br />
-								clearly see, and help them feel the message.
+								Whether the Consulting needs to convince or 
+								educate it always has to change audience
+								perception. We seek insights to make decks
+								unexpectedly enlightening for our audience.
 							</p>
 						</div>
 					</div>

@@ -14,11 +14,11 @@ export default function Publication() {
 			<div className="w-full padding-x py-[30px]">
 				<div className="w-full flex justify-between gap-[20px] flex-wrap sm:flex-col xm:flex-col">
 					<div>
-						<h3 className="paragraph font-medium text-white font-NeueMontreal">
+						{/* <h3 className="paragraph font-medium text-white font-NeueMontreal">
 							Latest publication
-						</h3>
+						</h3> */}
 					</div>
-					<div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
+					{/* <div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
 						{insightsPublicationItems.map((item) => (
 							<div
 								className="w-full flex justify-between gap-[20px] sm:flex-col xm:flex-col"
@@ -40,7 +40,7 @@ export default function Publication() {
 								</div>
 							</div>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

@@ -9,6 +9,7 @@ import {
 } from "@/container";
 import { useEffect } from "react";
 import { Curve, Ready } from "@/components";
+import Process from "@/container/home-page/Process";
 
 export default function About() {
 	useEffect(() => {
@@ -21,9 +22,10 @@ export default function About() {
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroabout />
+				<Principles />
 				<Aboutabout />
 				{/* <Team /> */}
-				<Principles />
+				<Process />
 				<Partners />
 				<Insights />
 				<Ready />

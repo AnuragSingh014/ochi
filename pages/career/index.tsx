@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { Curve } from "@/components";
 import { Heroinsights, Publicationinsights } from "@/container";
+import Form from "@/container/insights-page/Form";
 
 export default function Insights() {
 	useEffect(() => {
@@ -14,6 +15,7 @@ export default function Insights() {
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroinsights />
+				
 				<Publicationinsights />
 			</Curve>
 		</>

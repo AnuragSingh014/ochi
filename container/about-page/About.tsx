@@ -4,10 +4,19 @@ import { BackgroundImg } from "@/components";
 export default function About() {
 	return (
 		<section className="w-full padding-y">
+
 			<div className="w-full flex flex-col bg-background">
-				<div className="w-full border-t border-[#21212155] pt-[20px]">
-					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
+			<div className="w-full border-t border-[#21212155] pt-[20px]">
+				<div className="padding-x padding-y">
+					<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
+						We save businesses from ugly and
+						<br className="sm:hidden xm:hidden" /> ineffective Consulting.
+					</h1>
+				</div>
+				
+					{/* <div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 						<div>
+
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
 								We are Influidity  design:
 							</h3>
@@ -19,7 +28,7 @@ export default function About() {
 										The team of consultants, storytellers, and
 										<br /> passionate collaborators, who work
 										<br /> together to create industry-shifting <br />
-											strageties that win people&apos;s hearts
+										strageties that win people&apos;s hearts
 										<br />
 										and minds.
 									</p>
@@ -34,7 +43,7 @@ export default function About() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="padding-x pt-[100px] lg:pt-[80px] md:pt-[60px] sm:pt-[40px] xm:pt-[40px]">
