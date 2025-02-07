@@ -355,42 +355,42 @@ export const projectItem = [
 export const serviceProcessItems = [
    {
       id: 1,
-      phase: "01. Phase",
-      name: "Discovery",
+      phase: "01. Storyline",
+      name: "The Startup That Beat the Odds",
       src: phase1,
-      review: "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions.",
+      review: "Your company started with a small team, limited resources, and a big dream. Despite early struggles—lack of funding, market competition, and initial failures—you stayed resilient. Through strategic decisions, innovation, and persistence, you turned obstacles into stepping stones and eventually scaled into a successful business.",
       button: "read"
    },
    {
       id: 2,
-      phase: "02. Phase",
-      name: "Storytelling",
+      phase: "02. Storyline",
+      name: "From a Garage to a Global Brand",
       src: phase2,
-      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
+      review: "Like many iconic companies, your journey began in a small space—a garage, a basement, or a tiny office. With sheer determination and a belief in your vision, you built something extraordinary. Today, your company serves thousands (or millions) of customers worldwide, proving that great things have humble beginnings.",
       button: "read"
    },
    {
       id: 3,
-      phase: "03. Phase",
-      name: "Design",
+      phase: "03. Storyline",
+      name: "Learning from Failure to Build Success",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the Consulting wins people's hearts and leaves a perfect long-lasting impression.",
+      review: "Your company didn’t get it right the first time. Maybe the first product failed, a business deal collapsed, or customers didn’t respond as expected. Instead of giving up, you pivoted, learned from mistakes, and refined your approach. That resilience led to your breakthrough, proving that failure is just a step toward success.",
       button: "read"
    },
    {
       id: 4,
-      phase: "04. Phase",
-      name: "Feedback",
+      phase: "04. Storyline",
+      name: "Innovation That Changed Everything",
       src: phase4,
-      review: "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears.",
+      review: "Your company identified a gap in the market—a problem no one else was solving. With a unique approach, you created a product/service that disrupted the industry. The journey involved countless experiments, late nights, and unexpected challenges, but today, you’re a leader in your field.",
       button: "read"
    },
    {
       id: 5,
-      phase: "05. Phase",
-      name: "Delivery",
+      phase: "05. Storyline",
+      name: "A Customer-Centric Journey to Growth",
       src: phase5,
-      review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
+      review: "Your company didn’t grow because of fancy marketing or massive investments—it grew because you listened to your customers. Every decision, from product development to customer service, was based on feedback and solving real-world problems. That commitment to people-first business fueled your success.",
       button: "read"
    },
 ];
@@ -920,17 +920,17 @@ export const presentationProjectItem = [
 export const publicationItems = [
    {
       id: 1,
-      title: "officevibe ppt template",
+      title: "Website Developer",
       src: publication1
    },
    {
       id: 2,
-      title: "trawa energy pitch deck",
+      title: "Cloud Engineer",
       src: publication2
    },
    {
       id: 3,
-      title: "tech for ukraine",
+      title: "Content Writer",
       src: publication3
    },
 ];

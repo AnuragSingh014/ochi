@@ -21,7 +21,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Budgeting & Cost Optimization
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -34,13 +34,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Department-wise and project-specific budget creation.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Expense analysis and cost-reduction strategies.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Variance analysis and corrective action plans.</li>
+
+                  <li>Developing and monitoring budget adherence processes.</li>
+                  <li>Expense trend identification to avoid overspending.</li>
                 </ul>
               </div>
             </div>
@@ -70,7 +72,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Financial Reporting & Analysis
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -83,13 +85,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Preparation of profit and loss statements, balance sheets, and cash flow reports.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Real-time dashboard creation for financial insights.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>KPI tracking for operational and financial health.</li>
+                  <li>Break-even analysis and profitability assessment.</li>
+                  <li>Providing strategic insights based on financial data.</li>
+
                 </ul>
               </div>
             </div>
@@ -103,7 +107,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Tax Planning & Compliance
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -116,13 +120,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Structuring tax-efficient strategies to reduce liabilities.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Ensuring compliance with local and international tax regulations.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Filing income tax, GST, VAT, or other statutory returns.</li>
+
+                  <li>Representing the business in audits or disputes.</li>
+                  <li>Maintaining up-to-date documentation for tax compliance.</li>
                 </ul>
               </div>
             </div>
@@ -150,7 +156,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Strategic Financial Advisory
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -163,13 +169,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Aligning financial strategies with long-term business objectives.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Advising on major business decisions like expansions or diversification.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Providing financial insights to support leadership decisions.</li>
+
+                  <li>Designing sustainability and growth-oriented strategies.</li>
+                  <li>Acting as a financial sounding board for the CEO and leadership team.</li>
                 </ul>
               </div>
             </div>
@@ -184,7 +192,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Capital Structure & Fundraising Support
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -197,13 +205,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Assessing and restructuring the company’s capital structure.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Preparing investor pitch decks and detailed financial models.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Identifying and approaching potential investors or lenders.</li>
+
+                  <li>Negotiating loan or equity terms for funding.</li>
+                  <li>Structuring repayment and exit strategies for investors.</li>
                 </ul>
               </div>
             </div>
@@ -224,7 +234,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Risk Management & Internal Controls
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -237,13 +247,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Analyzing product/service profitability metrics.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Identifying low-performing areas and optimizing resources.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Implementing cost-reduction strategies across departments.</li>
+
+                  <li>Developing pricing strategies to maximize margins.</li>
+                  <li>Strategic allocation of resources to profitable ventures.</li>
                 </ul>
               </div>
             </div>

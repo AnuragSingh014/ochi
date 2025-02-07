@@ -21,7 +21,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Digital Marketing
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -34,13 +34,26 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Digital Marketing Plan Development.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Search Engine Optimization (SEO).
+
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Pay-Per-Click (PPC) Campaign Management.</li>
+
+                  <li>Social Media Strategy and Content Calendar.</li>
+                  <li>Email Marketing and Automation Setup.</li>
+                  <li>Conversion Rate Optimization (CRO).</li>
+                  <li>Affiliate Marketing Programs.</li>
+                  <li>Performance Analysis & Campaign Optimization.</li>
+                  <li>Display and Banner Advertising.Retargeting Campaigns.</li>
+                  <li>Native Advertising Integration.</li>
+                  <li>Landing Page Optimization for Conversions.</li>
+                  <li>Facebook, Instagram, and LinkedIn Ads Strategy.</li>
+                  <li>YouTube Advertising and Video Campaigns.</li>
+                  <li>A/B Testing for Ad Performance.</li>
+
                 </ul>
               </div>
             </div>
@@ -70,7 +83,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Website Development
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -83,13 +96,22 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Website Strategy and Planning
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Website Design and Development
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>E-Commerce Solutions.</li>
+
+                  <li>Content Management Systems (CMS)</li>
+                  <li>SEO-Optimized Websites.</li>
+                  <li>Website Audits and Redesign.</li>
+                  <li>Landing Page Development.</li>
+                  <li>API Integration.</li>
+                  <li>Multi-Language and Localization Support.</li>
+                  <li>Custom Web Applications.</li>
+                  <li>Compliance and Security.</li>
+
                 </ul>
               </div>
             </div>
@@ -103,7 +125,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Social Media Marketing
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -116,13 +138,20 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Content Strategy Development
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                    Storytelling and Brand Narratives
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Social Media Strategy & Management</li>
+
+                  <li>Content creation</li>
+                  <li>Influencer Marketing & Collaborations</li>
+                  <li>Community Engagement and Management</li>
+                  <li>Crisis Management </li>
+                  <li>UGC and Viral Content </li>
+                  <li>Meme marketing</li>
+
                 </ul>
               </div>
             </div>
@@ -150,7 +179,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Customer Journey Mapping
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -163,13 +192,19 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Customer Touchpoint Analysis.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Persona Development Based on Behavior.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Mapping Pre-Purchase, Purchase, and Post-Purchase Journeys.</li>
+
+                  <li>Identifying Friction Points in Customer Experience.</li>
+                  <li>Designing Omnichannel Strategies for Engagement.</li>
+                  <li>Integrating Feedback Mechanisms.</li>
+                  <li>Optimizing Digital and Physical Touchpoints.</li>
+                  <li>Automation of Key Engagement Processes.</li>
+                  <li>Personalization of Marketing Communications.</li>
                 </ul>
               </div>
             </div>
@@ -184,7 +219,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Marketing Automation & Technology
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -197,13 +232,21 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  CRM Integration and Management.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Email Automation and Drip Campaigns.
+
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Marketing Funnel Design and Implementation.</li>
+
+                  <li>Lead Scoring and Nurturing Frameworks.</li>
+                  <li>Analytics Dashboard Development.</li>
+                  <li>Social Media Automation Setup.</li>
+                  <li>Sales and Marketing Alignment Strategies.</li>
+                  <li>Workflow Automation for Repetitive Tasks.</li>
+                  <li>Data Synchronization Across Platforms.</li>
+
                 </ul>
               </div>
             </div>
@@ -224,7 +267,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Video Production
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -237,13 +280,19 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Concept Development
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Pre-Production Planning
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Video Production (Shooting)</li>
+
+                  <li>Motion Graphics & Animation</li>
+                  <li>Post-Production Editing</li>
+                  <li>Brand Video Creation</li>
+                  <li>Social Media Video Content</li>
+                  <li>Corporate Video Production</li>
+
                 </ul>
               </div>
             </div>

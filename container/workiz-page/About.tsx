@@ -6,7 +6,7 @@ export default function About() {
     <section className="w-full padding-y">
       <div className="w-full flex flex-col">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Brand Strategy Development
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -19,13 +19,21 @@ export default function About() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Vision and Mission Articulation.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Core Value Identification.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Competitive Brand Positioning.</li>
+
+                  <li>Logo Design & Brand Identity Creation.</li>
+                  <li>Brand Toolkit Development</li>
+                  <li>Verbal Identity Framework</li>
+                  <li>Brand Persona Design.</li>
+                  <li>Internal Brand Training & Engagement Workshops.</li>
+                  <li>Brand Audit & Analysis.</li>
+                  <li>Long-Term Brand Growth Strategy.</li>
+
                 </ul>
               </div>
             </div>
@@ -37,7 +45,7 @@ export default function About() {
       </div>
 	  <div className="w-full flex flex-col mt-[7rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Market Research & Consumer Insights
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -50,13 +58,20 @@ export default function About() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Market Segmentation and Target Audience Analysis.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Consumer Behavior Mapping.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Competitor Benchmarking and SWOT Analysis.</li>
+
+                  <li>Industry Trends and Forecasting Studies.</li>
+                  <li>Customer Pain Points and Needs Assessment.</li>
+                  <li>Survey Design and Implementation.</li>
+                  <li>Focus Groups and Interviews for Qualitative Insights.</li>
+                  <li>Geographic and Demographic Market Analysis.</li>
+                  <li>Product-Market Fit Assessment.</li>
+
                 </ul>
               </div>
             </div>

@@ -6,7 +6,7 @@ export default function About() {
     <section className="w-full padding-y">
       <div className="w-full flex flex-col">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Financial Planning & Forecasting
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -19,13 +19,15 @@ export default function About() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Long-term and short-term financial strategy development.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Revenue and expense forecasting models.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Scenario analysis for market or business changes.</li>
+
+                  <li>Strategic investment and divestment planning.</li>
+                  <li>Budget alignment with organizational objective</li>
                 </ul>
               </div>
             </div>
@@ -37,7 +39,7 @@ export default function About() {
       </div>
 	  <div className="w-full flex flex-col mt-[7rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Cash Flow Management
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -50,13 +52,15 @@ export default function About() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Monitoring and optimizing cash inflows and outflows.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Accounts receivable and payable management.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Implementing cash flow tracking tools and dashboards.</li>
+
+                  <li>Identifying and addressing cash flow gaps.</li>
+                  <li>Developing liquidity management strategies.</li>
                 </ul>
               </div>
             </div>
