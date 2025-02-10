@@ -9,8 +9,8 @@ export default function About() {
 			<div className="w-full border-t border-[#21212155] pt-[20px]">
 				<div className="padding-x padding-y">
 					<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					We save businesses from ugly and
-						<br className="sm:hidden xm:hidden" /> ineffective Consulting.
+					Like the Friend Who Always Had the Answers
+						<br className="sm:hidden xm:hidden" />
 					</h1>
 				</div>
 				

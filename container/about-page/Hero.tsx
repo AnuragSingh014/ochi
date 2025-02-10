@@ -51,60 +51,48 @@ export default function Hero() {
                 <div className="w-[70%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
                   <div className="flex flex-col gap-y-[20px]">
                     <p className="paragraph font-NeueMontreal text-secondry">
-                      Business is not about checking boxes or templates—it’s
-                      about solving real problems, adapting to change, and
-                      building something that lasts.
-                       Founded in 2017, Influidity Solution is built on
-                      two principles: Infinity for endless possibilities, and
-                      Fluidity for adaptability.
-                      
-                      What does that mean for you? It means strategies that grow
-                      as you grow, ideas that solve problems before they arise,
-                      and a partner committed to your long-term success.
-                      
-                      Whether you’re launching a startup, scaling your business,
-                      or redefining your legacy, we cut through the noise to
-                      deliver what works.
+                      Business is not checking boxes or templates. It is solving real problems,
+                      responding to change, and building something that lasts.
+                      That is what Influidity Solution is all about. Founded in 2017,
+                      we built our name on two ideas: Infinity for endless possibilities,
+                      and Fluidity for adaptability. What does that mean for you?
+                      It means strategies that grow as you grow, ideas that solve problems before they arise,
+                      and a partner that sticks with you for the long haul. We're here to help you launch your new start-up,
+                      scale your small or medium enterprise, or redefine your corporate legacy.
+                      We cut through the noise to deliver what works.
                     </p>
                   </div>
 
                   <div className="flex flex-col gap-y-[20px]">
                     <p className="paragraph font-NeueMontreal text-secondry">
-                      No fluff. No jargon. Just solutions that make your
-                      business move smarter, adapt faster, and grow stronger.
-                       We don’t sell services—we get you where you need to
-                      be with strategies that don’t just work on paper but
-                      thrive in the real world.
-                      
-                      At Influidity, growth should be natural, seamless, and
-                      inevitable.
-                      
-                      When you get it right, success doesn’t have to be forced.
-                      It just flows.
+                      No fluff. No jargon. Just solutions designed to make your business move smarter,
+                      adapt faster, and grow stronger. We are not in the business of selling services.
+                      We are in the business of getting you where you need to be-through strategies
+                      that do not just work on paper but thrive in the real world. At Influidity,
+                      we believe that growth should feel as natural, seamless, and inevitable as possible.
+                      For when you get it right, success doesn't have to be forced. It just flows.
                     </p>
                   </div>
 
                   <div className="flex flex-col gap-y-[20px]">
-  <p className="paragraph font-NeueMontreal text-secondry">
-    The rules of business have changed. In a world where speed and precision are everything, there’s no room for half-measures.
-     At Influidity Solution, we don’t just advise—we build solutions that work in the real world, where challenges are constant, and results matter.
-    
-    Since 2017, we’ve recognized that every organization is unique, with its own goals and challenges.
-    
-    That’s why our strategies are tailored to fit your business—designed to drive real impact where it matters most.
-  </p>
-</div>
+                    <p className="paragraph font-NeueMontreal text-secondry">
+                      The rules of business have changed. In a world where speed and precision are everything,
+                      there’s no room for half-measures. Influidity Solution understands this.
+                      We don't just advise; we build solutions that work in the real world, where challenges are constant,
+                      and outcomes are what count. We have, since 2017, assumed that every organization is unique with its needs being different.
+                      To this end, our strategies are well designed to take into account a business, specific goals, or challenges.
+                    </p>
+                  </div>
 
-<div className="flex flex-col gap-y-[20px]">
-  <p className="paragraph font-NeueMontreal text-secondry">
-    No shortcuts. No one-size-fits-all solutions.
-     Our approach is built on "Perfection along Constraints"—focusing on what truly moves the needle.
-    
-    Whether it’s eliminating inefficiencies, enhancing customer experiences, or cutting unnecessary costs, we help businesses do more than just adapt—we help them thrive.
-    
-    At Influidity Solution, we’re more than service providers. We’re partners invested in your success—because when you grow, we grow.
-  </p>
-</div>
+                  <div className="flex flex-col gap-y-[20px]">
+                    <p className="paragraph font-NeueMontreal text-secondry">
+                      Never shortcuts and absolutely no "one-size-fits-all. "Our approach is based on the concept of "Perfection along Constraints.
+                      " Whether it's identifying inefficiencies, improving customer experiences, or reducing costs that don't add value,
+                      we focus on what moves the needle for you. We help organizations do more than adapt to change — we help them thrive in it.
+                      We are not just service providers at BPI. We are a partner that cares for the success as much as you do.
+                      We go further because your success is our success.
+                    </p>
+                  </div>
 
 
                 </div>
@@ -131,7 +119,7 @@ export default function Hero() {
       {/* <div className="padding-y" data-scroll data-scroll-speed="-.1">
         <Eyes className="w-[300px] h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px] sm:flex-col xm:flex-col" />
       </div> */}
-      
+
     </section>
   );
 }

@@ -7,20 +7,20 @@ const aboutPartberItems1 = [
 	{
 	   id: 1,
 	   src: planetly,
-	   title: "Planetly",
-	   para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our Consulting decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+	   title: "Integrity First",
+	   para: "We always focus on ethics and doing the right business. It's not just getting things done, but getting things done with intent, trust, and excellence."
 	},
 	{
 	   id: 2,
 	   src: officevibe,
-	   title: "Officevibe",
-	   para: "Influidityhas an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Influidity  delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Influidity  design again for sure!"
+	   title: "Diversity Broadens Perspectives",
+	   para: "We bring in diverse ideas to create solutions that work for everybody by embracing all different perspectives of life."
 	},
 	{
 	   id: 3,
 	   src: nestle,
-	   title: "Nestle",
-	   para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Ihor and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
+	   title: "Transparency Drives Communication",
+	   para: "Communicating clearly, honestly, builds strong relationships both with our teams, clients, and partners."
 	},
 	
  ];
@@ -29,20 +29,20 @@ const aboutPartberItems1 = [
 	{
 	   id: 1,
 	   src: planetly,
-	   title: "Planetly",
-	   para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our Consulting decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+	   title: "Accountability Matters",
+	   para: "We own our clients' business objectives as if they were our own, ensuring alignment and measurable outcomes."
 	},
 	{
 	   id: 2,
 	   src: officevibe,
-	   title: "Officevibe",
-	   para: "Influidityhas an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Influidity  delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Influidity  design again for sure!"
+	   title: "Strategy Meets Logic",
+	   para: "We believe that fear of failure is conquered by sound logic and strategy, paving the way for innovation and growth."
 	},
 	{
 	   id: 3,
 	   src: nestle,
-	   title: "Nestle",
-	   para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Ihor and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
+	   title: "Quality Without Compromise",
+	   para: "Cost optimization is important, but never at the expense of delivering excellence."
 	},
 	
  ];
@@ -52,10 +52,10 @@ export default function Principles() {
 		<section className="w-full bg-background">
 			<div>
 				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry">
-					We’ve built long-lasting partnerships
-					<br className="sm:hidden xm:hidden" /> with the most ambitious brands
+					At Influidity, we believe that how we achieve success is as important as achieving it. As an expanding organization, we are committed to holding a strong ethical compass. Our core values aren't just words; they're the principles that guide every decision, every interaction, and every result.
+					<br className="sm:hidden xm:hidden" /> 
 					<br className="sm:hidden xm:hidden" />
-					across the globe:
+	
 				</h1>
 			</div>
 			<div className="w-[80%] p-3 border-t border-[#21212155] mt-[50px]">

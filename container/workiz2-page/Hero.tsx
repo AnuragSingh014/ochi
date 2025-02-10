@@ -15,7 +15,7 @@ export default function Hero() {
 								<div className="flex items-center gap-[5px]">
 									
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										Marketing Connsulting
+									Business Consulting
 									</h1>
 								</div>
 							</h1>
@@ -24,27 +24,29 @@ export default function Hero() {
 
 					<div className="w-full border-t border-[#21212155]">
 						<p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry pt-16 pb-14">
-							We create&nbsp;
+						Your business has potential, but is it reaching its peak?&nbsp;
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-catching&nbsp;
+							
 							</span>
 							and&nbsp;
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-opening&nbsp;
+							
 							</span>
-							presentations that educate, inspire and influence action.
+							
 						</p>
 
 						<p className="w-[80%] sm:w-full xm:w-full text-4xl font-normal padding-x  font-NeueMontreal text-secondry pb-14">
-							We create&nbsp;
+							
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-catching&nbsp;
+								
 							</span>
-							and&nbsp;
+						
 							<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-								eye-opening&nbsp;
+							
 							</span>
-							presentations that educate, inspire and influence action.
+							In a world of constant change, we help you find opportunities, overcome challenges,
+							 and create strategies that deliver real outcomes. Business success is not about doing everything; it's about doing the right things.
+							 We work with you to build a strong, efficient, 
 						</p>
 
 					</div>

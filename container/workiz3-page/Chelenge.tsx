@@ -21,7 +21,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Workforce Planning & Talent Acquisition
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -34,13 +34,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Talent Needs Assessment.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Job Description Development.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Recruitment Strategy & Candidate Sourcing.</li>
+
+                  <li>Executive Search and Leadership Hiring.</li>
+                  <li>Employer Branding for Attracting Top Talent.</li>
                 </ul>
               </div>
             </div>
@@ -70,7 +72,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Employee Engagement & Retention Programs
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -83,13 +85,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Employee Feedback Surveys and Analysis.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Designing Rewards and Recognition Programs.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Organizing Team-Building and Well-Being Initiatives.</li>
+
+                  <li>Leadership Communication Enhancement.</li>
+                  <li>Crafting Career Growth and Development Plans.</li>
                 </ul>
               </div>
             </div>
@@ -103,7 +107,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        HR Policy Development & Compliance
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -116,13 +120,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Creation of Comprehensive HR Policies and Manuals.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Implementation of Workplace Harassment and Safety Guidelines.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Compliance with Labor Laws and Regulations</li>
+
+                  <li>Policy Audits and Updates for Legal Alignment.</li>
+                  <li>Documentation for Onboarding and Exit Processes.</li>
                 </ul>
               </div>
             </div>
@@ -150,7 +156,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Organizational Design & Development
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -163,13 +169,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Defining Organizational Structure and Hierarchy.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Job Role Mapping and Workforce Optimization.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Change Management and Transition Planning.</li>
+
+                  <li>Culture Transformation Initiatives.</li>
+                  <li>Mergers and Acquisitions Integration Support.</li>
                 </ul>
               </div>
             </div>
@@ -184,7 +192,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Diversity, Equity, and Inclusion (DEI) Consulting
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -197,13 +205,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Assessing Workplace Diversity Metrics.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Designing Inclusive Hiring and Promotion Practices.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Conducting DEI Workshops and Awareness Sessions.</li>
+
+                  <li>Creating a Welcoming and Bias-Free Environment.</li>
+                  <li>Monitoring and Reporting DEI Progress.</li>
                 </ul>
               </div>
             </div>
@@ -224,7 +234,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        HR Technology Implementation
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -237,13 +247,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  HRIS (Human Resource Information System) Setup and Integration.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Streamlining Payroll Management Systems.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Automation of Attendance and Leave Management.</li>
+
+                  <li>Performance Tracking and Analytics Software Implementation.</li>
+                  <li>Training HR Teams on Technology Usage.</li>
                 </ul>
               </div>
             </div>

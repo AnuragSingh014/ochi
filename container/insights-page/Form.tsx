@@ -123,72 +123,62 @@ export default function Form() {
               value={formData.name}
               onChange={handleChange}
               type="text"
-              placeholder="Enter your name*"
+              placeholder="name*"
               className={`${inputClasses} min-w-[200px] flex-1`}
               aria-required="true"
             />
-            <span className={textClasses}>and I represent</span>
+            <span className={textClasses}>I live in</span>
             <input
               name="organisation"
               value={formData.organisation}
               onChange={handleChange}
               type="text"
-              placeholder="organisation name type here*"
+              placeholder="city*"
               className={`${inputClasses} min-w-[200px] flex-1`}
               aria-required="true"
             />
           </div>
 
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-            <span className={textClasses}>I'm reaching out to inquire about your services, specifically</span>
+            <span className={textClasses}>My phone number is</span>
             <input
               name="serviceType"
               value={formData.serviceType}
               onChange={handleChange}
               type="text"
-              placeholder="Your service type here*"
+              placeholder="Number type here*"
               className={`${inputClasses} min-w-[300px] flex-1`}
               aria-required="true"
             />
           </div>
 
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-            <span className={textClasses}>To provide more context, my requirement involves</span>
+            <span className={textClasses}>A little about me</span>
             <input
               name="elaboration"
               value={formData.elaboration}
               onChange={handleChange}
               type="text"
-              placeholder="Elaboration on requirement*"
+              placeholder="About me*"
               className={`${inputClasses} min-w-[300px] flex-1`}
               aria-required="true"
             />
           </div>
 
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-            <span className={textClasses}>For further communication, feel free to contact me at</span>
+            <span className={textClasses}>My reason for wanting to join</span>
             <input
-              name="phone"
-              value={formData.phone}
+              name="elaboration"
+              value={formData.elaboration}
               onChange={handleChange}
-              type="tel"
-              placeholder="Contact number*"
-              className={`${inputClasses} min-w-[200px] flex-1`}
+              type="text"
+              placeholder="want to join for*"
+              className={`${inputClasses} min-w-[300px] flex-1`}
+              aria-required="true"
             />
           </div>
 
-          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-            <span className={textClasses}>and</span>
-            <input
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              type="email"
-              placeholder="Email id*"
-              className={`${inputClasses} min-w-[200px] flex-1`}
-            />
-            <span className={textClasses}>Looking forward to hearing from you!</span>
-          </div>
+
         </div>
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6">

@@ -21,7 +21,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Strategic Business Planning
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -34,13 +34,17 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Vision, Mission, and Goal Setting.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Developing Short-Term and Long-Term Business Plans.
+
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Competitive Analysis and Market Positioning.</li>
+
+                  <li>Business Diversification Strategies.</li>
+                  <li>Scenario Planning and Contingency Development.</li>
+
                 </ul>
               </div>
             </div>
@@ -70,7 +74,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Financial Planning & Analysis
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -83,13 +87,16 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Budgeting and Forecasting Models.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Cost Control and Revenue Optimization.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Break-Even and Profitability Analysis.</li>
+
+                  <li>Cash Flow Management Strategies.</li>
+                  <li>Financial KPI Monitoring and Reporting.</li>
+
                 </ul>
               </div>
             </div>
@@ -103,7 +110,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Operational Excellence Consulting
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -116,13 +123,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Workflow Optimization and Process Reengineering.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Lean Management and Efficiency Audits.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Resource Allocation and Productivity Improvement.</li>
+
+                  <li>Implementation of Standard Operating Procedures (SOPs).</li>
+                  <li>Technology Integration for Operational Streamlining.</li>
                 </ul>
               </div>
             </div>
@@ -150,7 +159,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Business Model Innovation
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -163,13 +172,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Evaluating and Redesigning Business Models.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Exploring Subscription, Freemium, and Other Revenue Streams.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Identifying New Market Segments.</li>
+
+                  <li>Product and Service Offering Realignment.</li>
+                  <li>Testing and Prototyping Innovative Models</li>
                 </ul>
               </div>
             </div>
@@ -184,7 +195,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Growth Strategy & Market Entry
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -197,13 +208,16 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Identifying New Markets and Geographies.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Designing Go-to-Market Strategies.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Strategic Partnerships and Alliances.</li>
+
+                  <li>Mergers and Acquisitions Support.</li>
+                  <li>Expansion Feasibility Studies.</li>
+
                 </ul>
               </div>
             </div>
@@ -224,7 +238,7 @@ export default function Chelenge() {
 
 	  <div className="w-full flex flex-col my-[10rem]">
         <h2 className="text-4xl padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-          Company 1
+        Crisis Management & Business Continuity
         </h2>
         <div className="w-full border-t border-[#21212155] pt-[20px]">
           <div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -237,13 +251,15 @@ export default function Chelenge() {
               <div>
                 <ul className="list-disc pl-5 font-NeueMontreal text-secondry">
                   <li>
-                    Built by home service professionals on a mission to make
-                    your “work easy.”
+                  Risk Assessment and Mitigation Planning.
                   </li>
                   <li>
-                    Workiz empowers service businesses to get more jobs done.
+                  Business Impact Analysis for Crisis Preparedness.
                   </li>
-                  <li>Work easier and grow smarter.</li>
+                  <li>Developing Continuity and Recovery Frameworks.</li>
+
+                  <li>Crisis Communication Strategy Development.</li>
+                  <li>Post-Crisis Performance Review and Optimization.</li>
                 </ul>
               </div>
             </div>
