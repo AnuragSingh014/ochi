@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
 
   // Fetch jobs from the API when the component mounts
   useEffect(() => {
-    fetch("http://localhost:5000/api/jobs")
+    fetch("https://admin-kappa-swart.vercel.app/api/jobs")
       .then((response) => response.json())
       .then((data: Job[]) => {
         setJobs(data);

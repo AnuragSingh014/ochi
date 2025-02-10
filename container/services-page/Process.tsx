@@ -26,7 +26,7 @@ export default function Process() {
 
 	const fetchProcessItems = async () => {
 		try {
-		  const response = await fetch("http://localhost:5000/api/process");
+		  const response = await fetch("https://admin-kappa-swart.vercel.app/api/process");
 		  if (response.ok) {
 			const data = await response.json();
 			setserviceProcessItems(data);

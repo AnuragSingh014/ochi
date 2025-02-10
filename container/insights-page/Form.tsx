@@ -1,38 +1,50 @@
 import { useState } from "react";
 import Link from "next/link";
 
+// Define types
+type AlertProps = {
+  children: React.ReactNode;
+  type: "error" | "success";
+};
+
+type FormData = {
+  name: string;
+  organisation: string;
+  phone: string;
+  about: string;
+  reasonForJoining: string;
+};
+
 // Simple custom alert component
-const Alert: React.FC<{ children: React.ReactNode; type: 'error' | 'success' }> = ({ children, type }) => (
-  <div className={`p-4 rounded-lg mb-6 ${
-    type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : 
-    'bg-green-50 text-green-700 border border-green-200'
-  }`}>
+const Alert: React.FC<AlertProps> = ({ children, type }) => (
+  <div
+    className={`p-4 rounded-lg mb-6 ${
+      type === "error"
+        ? "bg-red-50 text-red-700 border border-red-200"
+        : "bg-green-50 text-green-700 border border-green-200"
+    }`}
+  >
     {children}
   </div>
 );
 
 export default function Form() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     organisation: "",
-    serviceType: "",
-    elaboration: "",
     phone: "",
-    email: "",
+    about: "",
+    reasonForJoining: "",
   });
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
-  const [privacyAccepted, setPrivacyAccepted] = useState(false);
-
-  const isValidEmail = (email: string): boolean => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-   };
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
+  const [success, setSuccess] = useState<string>("");
+  const [privacyAccepted, setPrivacyAccepted] = useState<boolean>(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name as keyof FormData]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
     setError("");
   };
 
@@ -43,40 +55,37 @@ export default function Form() {
     setSuccess("");
 
     if (!privacyAccepted) {
-      setError("Please accept the privacy policy to continue");
+      setError("Please accept the privacy policy to continue.");
       setLoading(false);
       return;
     }
 
-    const requiredFields = ["name", "organisation", "serviceType", "elaboration"];
-    const missingFields = requiredFields.filter((field: any) => !formData[field as keyof typeof formData]);
-    
+    const requiredFields: (keyof FormData)[] = [
+      "name",
+      "organisation",
+      "phone",
+      "about",
+      "reasonForJoining",
+    ];
+    const missingFields = requiredFields.filter((field) => !formData[field]);
+
     if (missingFields.length > 0) {
-      setError("Please fill in all required fields");
-      setLoading(false);
-      return;
-    }
-
-    if (!formData.email && !formData.phone) {
-      setError("Please provide either an email or phone number");
-      setLoading(false);
-      return;
-    }
-
-    if (formData.email && !isValidEmail(formData.email)) {
-      setError("Please enter a valid email address");
+      setError("Please fill in all required fields.");
       setLoading(false);
       return;
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/career/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://admin-kappa-swart.vercel.app/api/career/submit",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const result = await response.json();
 
@@ -85,10 +94,9 @@ export default function Form() {
         setFormData({
           name: "",
           organisation: "",
-          serviceType: "",
-          elaboration: "",
           phone: "",
-          email: "",
+          about: "",
+          reasonForJoining: "",
         });
         setPrivacyAccepted(false);
       } else {
@@ -101,29 +109,26 @@ export default function Form() {
     }
   };
 
-  const inputClasses = "w-full bg-transparent border-b border-[#21212155] focus:border-secondry outline-none px-2 py-1 text-4xl";
-  const textClasses = "text-5xl  font-bold text-[#333]";
+  const inputClasses =
+    "w-full bg-transparent border-b border-[#21212155] focus:border-secondry outline-none px-2 py-1 text-4xl";
+  const textClasses = "text-5xl font-bold text-[#333]";
 
   return (
     <form onSubmit={handleSubmit} className="max-w-5xl mx-auto text-2xl">
       <div className="p-8">
         <h2 className="text-lg text-gray-600 mb-6">Fill the form below:</h2>
-        
-        {(error || success) && (
-          <Alert type={error ? "error" : "success"}>
-            {error || success}
-          </Alert>
-        )}
+
+        {(error || success) && <Alert type={error ? "error" : "success"}>{error || success}</Alert>}
 
         <div className="space-y-8 text-2xl">
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-            <span className={textClasses} >Hi! My name is</span>
+            <span className={textClasses}>Hi! My name is</span>
             <input
               name="name"
               value={formData.name}
               onChange={handleChange}
               type="text"
-              placeholder="name*"
+              placeholder="Name*"
               className={`${inputClasses} min-w-[200px] flex-1`}
               aria-required="true"
             />
@@ -133,7 +138,7 @@ export default function Form() {
               value={formData.organisation}
               onChange={handleChange}
               type="text"
-              placeholder="city*"
+              placeholder="City*"
               className={`${inputClasses} min-w-[200px] flex-1`}
               aria-required="true"
             />
@@ -142,11 +147,11 @@ export default function Form() {
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
             <span className={textClasses}>My phone number is</span>
             <input
-              name="serviceType"
-              value={formData.serviceType}
+              name="phone"
+              value={formData.phone}
               onChange={handleChange}
               type="text"
-              placeholder="Number type here*"
+              placeholder="Phone Number*"
               className={`${inputClasses} min-w-[300px] flex-1`}
               aria-required="true"
             />
@@ -155,11 +160,11 @@ export default function Form() {
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
             <span className={textClasses}>A little about me</span>
             <input
-              name="elaboration"
-              value={formData.elaboration}
+              name="about"
+              value={formData.about}
               onChange={handleChange}
               type="text"
-              placeholder="About me*"
+              placeholder="Tell us about yourself*"
               className={`${inputClasses} min-w-[300px] flex-1`}
               aria-required="true"
             />
@@ -168,17 +173,15 @@ export default function Form() {
           <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
             <span className={textClasses}>My reason for wanting to join</span>
             <input
-              name="elaboration"
-              value={formData.elaboration}
+              name="reasonForJoining"
+              value={formData.reasonForJoining}
               onChange={handleChange}
               type="text"
-              placeholder="want to join for*"
+              placeholder="Why do you want to join?*"
               className={`${inputClasses} min-w-[300px] flex-1`}
               aria-required="true"
             />
           </div>
-
-
         </div>
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -210,5 +213,3 @@ export default function Form() {
     </form>
   );
 }
-
-
