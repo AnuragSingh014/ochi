@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { latestItemss } from "@/constants";
@@ -8,29 +9,44 @@ import Form from "./Form";
 import { Marquee } from "@/components";
 import { publicationItems } from "@/constants";
 
-export default function Hero() {
+// Define a TypeScript interface for a Job
+interface Job {
+  _id: string;
+  position: string;
+  description: string;
+  requirements: string;
+}
+
+const Hero: React.FC = () => {
   const str = [
-    {
-      id: 1,
-      title: "all",
-      href: "/",
-    },
-    {
-      id: 2,
-      title: "presentation template",
-      href: "/",
-    },
-    {
-      id: 3,
-      title: "public speaking",
-      href: "/",
-    },
-    {
-      id: 4,
-      title: "storytelling",
-      href: "/",
-    },
+    { id: 1, title: "all", href: "/" },
+    { id: 2, title: "presentation template", href: "/" },
+    { id: 3, title: "public speaking", href: "/" },
+    { id: 4, title: "storytelling", href: "/" },
   ];
+
+  // State to hold jobs fetched from the API
+  const [jobs, setJobs] = useState<Job[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Fetch jobs from the API when the component mounts
+  useEffect(() => {
+    fetch("http://localhost:5000/api/jobs")
+      .then((response) => response.json())
+      .then((data: Job[]) => {
+        setJobs(data);
+        setLoading(false);
+      })
+      .catch((err: any) => {
+        console.error(err);
+        setError(err.message || "Error fetching jobs");
+        setLoading(false);
+      });
+  }, []);
+
+
+
   return (
     <section className="w-full min-h-screen">
       <div className="w-full flex flex-col justify-between">
@@ -67,111 +83,65 @@ export default function Hero() {
                 </div>
               </div>
             </section>
-
-            
           </div>
-		  <div className="w-full border-t border-[#21212155]">
-              <p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
+          <div className="w-full border-t border-[#21212155]">
+            <p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
               We create&nbsp;
-                <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-                  eye-catching&nbsp;
-                </span>
-                and&nbsp;
-                <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-                  eye-opening&nbsp;
-                </span>
-                presentations that educate, inspire and influence action.
-              </p>
-            </div>
-		  <Form />
-          
-          <section className="w-full bg-marquee padding-y rounded-t-[20px] mt-[-10px] z-30 relative">
-			<div className="w-full bg-marquee z-10 relative">
-				
-			</div>
-			<div className="w-full padding-x">
-				<div className="w-full flex justify-between pt-[20px] sm:flex-col xm:flex-col gap-y-[20px]">
-					<div className="w-[30%] sm:w-full xm:w-full">
-						<h3 className="paragraph font-medium text-white font-NeueMontreal">
-							Latest publication
-						</h3>
-					</div>
-					<div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
-						{publicationItems.map((item) => (
-							<div
-								className="w-full flex justify-between gap-[20px] sm:flex-col xm:flex-col"
-								key={item.id}>
-								<div className="w-full flex gap-[20px] rounded-[20px] flex-col">
-									<div className="group overflow-hidden rounded-[20px]">
-										<Image
-											src={item.src}
-											alt="asd"
-											className="w-full h-full group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]	"
-										/>
-									</div>
-									<div className="flex gap-x-[10px] items-center pb-[10px]">
-										<span className="w-[10px] h-[10px] rounded-full bg-white" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-white">
-											{item.title}
-										</h1>
-									</div>
-								</div>
-							</div>
-						))}
-					</div>
-				</div>
-			</div>
-		</section>
-
-          <div className="w-full padding-x">
-            <div className="w-[50%] sm:w-full xm:w-full flex gap-[20px] padding-y sm:flex-col xm:flex-col gap-y-[20px]">
-              {/* {latestItemss.map((item) => (
-                <div key={item.id} className="group relative overflow-hidden">
-                  <Link href={item.href}>
-                    <div className="overflow-hidden rounded-[15px] transition cursor-pointer  transform duration-[1s] ease-[.4,0,.2,1]">
-                      <Image
-                        src={item.src}
-                        alt="img"
-                        className="sm:w-full xm:w-full hover:scale-[1.09] group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]"
-                      />
-                    </div>
-                    <div className="flex gap-y-[10px] absolute left-[25px] top-[-100px] group-hover:top-[20px] flex-col">
-                      {item.links.map((link) => (
-                        <div
-                          className="transform translate-y-[-200%] group-hover:translate-y-0 transition-all duration-300 ease-in-out"
-                          key={link.id}
-                        >
-                          <div className="rounded-[50px] border border-secondry py-[3px] px-[15px] cursor-pointer">
-                            <Link
-                              className="small-text font-NeueMontreal text-secondry uppercase"
-                              href={"/"}
-                            >
-                              {link.title}
-                            </Link>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                    <div className="flex flex-col gap-[7px] mt-[10px]">
-                      <h3 className="paragraph font-NeueMontreal font-normal text-secondry">
-                        Presenting to an International Audience: <br /> Tips and
-                        Lessons Learned.
-                      </h3>
-                      <p className="paragraph font-NeueMontreal font-normal text-gray-400">
-                        {item.subTitle}
-                      </p>
-                      <p className="paragraph font-NeueMontreal font-normal text-gray-400">
-                        {item.date}
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-              ))} */}
-              
-            </div>
+              <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
+                eye-catching&nbsp;
+              </span>
+              and&nbsp;
+              <span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
+                eye-opening&nbsp;
+              </span>
+              presentations that educate, inspire and influence action.
+            </p>
           </div>
+          <Form />
+
+          {/* Job Openings Section integrated with API */}
+          <section className="w-full bg-gray-100 py-10 rounded-t-[20px] mt-[-10px] z-30 relative">
+            <div className="w-full padding-x">
+              <h3 className="text-3xl font-semibold py-8 text-gray-800 font-NeueMontreal mb-4">
+                Job Openings
+              </h3>
+              {loading ? (
+                <p>Loading job openings...</p>
+              ) : error ? (
+                <p>Error loading jobs: {error}</p>
+              ) : jobs.length === 0 ? (
+                <p>No job openings available at the moment.</p>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {jobs.map((job) => (
+                    <div key={job._id} className="bg-[#71edbc] shadow-md rounded-lg p-6">
+                      <h4 className="text-2xl font-bold text-gray-900 mb-2">
+                        {job.position}
+                      </h4>
+                      <p className="text-gray-700 mb-4 whitespace-pre-wrap">
+                        {job.description}
+                      </p>
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {job.requirements.split(",").map((req, index) => (
+                          <span
+                            key={index}
+                            className="bg-black text-white text-sm font-medium px-2.5 py-1.5 rounded"
+                          >
+                            {req.trim()}
+                          </span>
+                        ))}
+                      </div>
+                      
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </section>
         </div>
       </div>
     </section>
   );
-}
+};
+
+export default Hero;

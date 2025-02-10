@@ -27,6 +27,6 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"components/Curve/Curve.jsx"
-	],
+, "container/services-page/Process.tsx"	],
 	"exclude": ["node_modules"]
 }

@@ -1,15 +1,45 @@
 import Image from "next/image";
-import { useState } from "react";
-import { serviceProcessItems } from "@/constants";
+import { useState, useEffect } from "react";
+
 import { AnimatePresence, motion } from "framer-motion";
 
+interface ProcessItem {
+	id: number;
+	phase: string;
+	name: string;
+	src: string;
+	review: string;
+	button: string;
+  }
+
 export default function Process() {
-	const [activeAccordion, setActiveAccordion] = useState(
-		serviceProcessItems[0].id,
-	);
+	const [activeAccordion, setActiveAccordion] = useState(1);
+	const [serviceProcessItems, setserviceProcessItems] = useState<ProcessItem[]>([]);
+
 	const toggleAccordion = (itemId: any) => {
 		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
 	};
+
+	useEffect(() => {
+		fetchProcessItems();
+	  }, []);
+
+	const fetchProcessItems = async () => {
+		try {
+		  const response = await fetch("http://localhost:5000/api/process");
+		  if (response.ok) {
+			const data = await response.json();
+			setserviceProcessItems(data);
+			// Set the first item as active if there are items
+			if (data.length > 0) {
+			  setActiveAccordion(data[0].id);
+			}
+		  }
+		} catch (error) {
+		  console.error("Error fetching process items:", error);
+		}
+	  };
+
 
 	return (
 		<section className="w-full py-3 mb-24">
@@ -61,8 +91,8 @@ export default function Process() {
 										}}>
 										<div className="flex flex-col gap-[20px] py-[30px]">
 											<div className="w-[130px] h-[130px]">
-												<Image
-													src={item.src}
+												<img
+													src="/phase1.png"
 													alt="clientImg"
 													className="w-full h-full object-cover rounded-[10px]"
 												/>

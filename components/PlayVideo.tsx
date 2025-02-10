@@ -14,6 +14,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 			if (isPlaying) {
 				videoRef.current.pause();
 			} else {
+				videoRef.current.muted = false; // Unmute video
 				videoRef.current.play();
 			}
 			setIsPlaying(!isPlaying);

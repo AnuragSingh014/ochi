@@ -70,7 +70,7 @@ export default function Form() {
     }
 
     try {
-      const response = await fetch("https://admin-kappa-swart.vercel.app/api/contact/submit", {
+      const response = await fetch("http://localhost:5000/api/contact/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -222,97 +222,3 @@ export default function Form() {
 }
 
 
-
-// "use client";
-
-// import Link from "next/link";
-// import { RoundButton } from "@/components";
-
-// export default function Form() {
-	
-
-	
-// 	return (
-// 		<section className="w-full padding-x padding-y">
-// 			 className="w-full flex flex-col gap-[15px]">
-// 				<div className="w-full flex gap-[15px] sm:flex-col xm:flex-col">
-// 					{/* Name Input */}
-// 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-// 						<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-// 							Hi! My name is
-// 						</h2>
-// 						<input
-// 							type="text"
-// 							name="name"
-// 							value={formData.name}
-// 							onChange={handleChange}
-// 							placeholder="Enter your name*"
-// 							className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
-// 						/>
-// 					</div>
-
-// 					{/* Organisation Input */}
-// 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-// 						<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-// 							and I represent
-// 						</h2>
-// 						<input
-// 							type="text"
-// 							name="organisation"
-// 							value={formData.organisation}
-// 							onChange={handleChange}
-// 							placeholder="Organisation name*"
-// 							className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
-// 						/>
-// 					</div>
-// 				</div>
-
-// 				{/* Elaboration Input */}
-// 				<div className="w-full flex gap-[10px]">
-// 					<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-// 						To provide more context, my requirement involves
-// 					</h2>
-// 					<input
-// 						type="text"
-// 						name="elaboration"
-// 						value={formData.elaboration}
-// 						onChange={handleChange}
-// 						placeholder="Elaboration on requirement*"
-// 						className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
-// 					/>
-// 				</div>
-
-// 				{/* Email Input */}
-// 				<div className="w-full flex gap-[10px]">
-// 					<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-// 						or
-// 					</h2>
-// 					<input
-// 						type="email"
-// 						name="email"
-// 						value={formData.email}
-// 						onChange={handleChange}
-// 						placeholder="Email ID*"
-// 						className="paragraph w-full text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center outline-none mt-[20px]"
-// 					/>
-// 				</div>
-
-// 				{/* Error Message */}
-// 				{error && <p className="text-red-500">{error}</p>}
-
-// 				{/* Success Message */}
-// 				{success && <p className="text-green-500">{success}</p>}
-
-// 				{/* Submit Button */}
-// 				<div className="w-full flex justify-end pt-[50px]">
-// 					<button
-// 						type="submit"
-// 						className="bg-secondry text-white px-6 py-2 rounded-full cursor-pointer"
-// 						disabled={loading}>
-// 						{loading ? "Sending..." : "Send Inquiry"}
-// 					</button>
-// 				</div>
-// 			</form>
-// 		</section>
-// 	);
-// }
