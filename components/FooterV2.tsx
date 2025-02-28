@@ -13,7 +13,7 @@ const FooterV2 = () => {
           onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
           className="top-0 right-0 absolute p-3 bg-white text-black rounded-2xl m-1"
         >
-          <p>Sh*t I've gone too far, send me back up</p>
+          <p>Sh*t I&apos;ve gone too far, send me back up</p>
         </div>
 
 
@@ -182,7 +182,7 @@ const FooterV2 = () => {
 
         {/* "Send me back up" Button */}
         <div className="fixed top-4 right-4 bg-white text-black px-4 py-2 rounded-full">
-          Sh*t I've gone too far, send me back up ⚡
+          Sh*t I&apos;ve gone too far, send me back up ⚡
         </div>
       </div>
     </div>
