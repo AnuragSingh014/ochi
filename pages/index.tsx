@@ -3,6 +3,9 @@ import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
 import { About, Cards, Clients, Hero, Projects, VideoHome } from "@/container";
 import TrustedPartners from "@/container/home-page/TrustedPartner";
+import WhatDefinesUs from "@/container/home-page/WhatDefinesUs";
+import RotatingArrow from "@/container/home-page/RotatingArrow";
+import Statistics from "@/container/home-page/Statistics";
 
 export default function Home() {
 	useEffect(() => {
@@ -15,7 +18,7 @@ export default function Home() {
 	return (
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
-				
+
 				<Hero />
 				<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 					<Marquee
@@ -24,11 +27,13 @@ export default function Home() {
 					/>
 				</div>
 				<About />
+				{/* <WhatDefinesUs /> */}
+				{/* <RotatingArrow /> */}
 				<VideoHome />
 				<Projects />
-				{/* <Clients /> */}
+				<Clients />
 				<Cards />
-				
+				<Statistics />
 				<Ready />
 			</Curve>
 		</>

@@ -5,70 +5,72 @@ import { useEffect, useState } from "react";
 import { text, curve, translate } from "@/motion";
 
 const routes = {
-	"/": "Home",
-	"/GrowthStory": "Growth Story",
-	"/consulting": "Consulting",
-	"/influidity": "Influidity",
-	"/career": "Career",
-	"/contact": "Contact Us",
-	"/case": "Workiz Easy",
-	"/marketingconsulting": "Marketing Consulting",
-	"/businessconsulting": "Business Consulting",
-	"/virtualcfo": "Virtual CFO",
-	"/hrconsulting": "HR Consulting",
-	"/consulting": "Consulting",
+  "/": "<span style='font-size: 35px; font-weight: bold;'>Great things aren’t rushed, and neither are we.</span><span style='font-size: 25px; line-height: 1.2; display: block;'>While we put the finishing touches on what’s coming your way, take a second to breathe. Sometimes, the wait is part of the process.</span>",
+  "/GrowthStory": "Growth Story",
+  "/consulting": "Consulting",
+  "/influidity": "Influidity",
+  "/career": "Career",
+  "/contact": "Contact Us",
+  "/case": "Workiz Easy",
+  "/marketingconsulting": "Marketing Consulting",
+  "/businessconsulting": "Business Consulting",
+  "/virtualcfo": "Virtual CFO",
+  "/hrconsulting": "HR Consulting",
+  "/consulting": "Consulting",
 };
 
 const anim = (variants) => {
-	return {
-		variants,
-		initial: "initial",
-		animate: "enter",
-		exit: "exit",
-	};
+  return {
+    variants,
+    initial: "initial",
+    animate: "enter",
+    exit: "exit",
+  };
 };
 
 export default function Curve({ children, backgroundColor }) {
-	const router = useRouter();
-	const [dimensions, setDimensions] = useState({
-		width: null,
-		height: null,
-	});
+  const router = useRouter();
+  const [dimensions, setDimensions] = useState({
+    width: null,
+    height: null,
+  });
 
-	useEffect(() => {
-		function resize() {
-			setDimensions({
-				width: window.innerWidth,
-				height: window.innerHeight,
-			});
-		}
-		resize();
-		window.addEventListener("resize", resize);
-		return () => {
-			window.removeEventListener("resize", resize);
-		};
-	}, []);
+  useEffect(() => {
+    function resize() {
+      setDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    resize();
+    window.addEventListener("resize", resize);
+    return () => {
+      window.removeEventListener("resize", resize);
+    };
+  }, []);
 
-	return (
-		<div style={{ backgroundColor }}>
-			<div
-				style={{ opacity: dimensions.width == null ? 1 : 0 }}
-				className="fixed h w-full pointer-events-none
-				 left-0 top-0 z-50 bg-black"
-			/>
-			<motion.p
-				className="absolute left-1/2 top-[40%] text-white text-[50px] z-[60] -translate-x-1/2 text-center"
-				{...anim(text)}>
-				{routes[router.route]}
-			</motion.p>
-			{dimensions.width != null && <SVG {...dimensions} />}
-			{children}
-		</div>
-	);
+  return (
+    <div style={{ backgroundColor }}>
+      <div
+        style={{ opacity: dimensions.width == null ? 1 : 0 }}
+        className="fixed h w-full pointer-events-none left-0 top-0 z-50 bg-black"
+      />
+      <motion.p
+        className={`absolute left-1/2 ${
+          router.route === "/" ? "top-[10%]" : "top-[40%]"
+        } text-white text-[50px] z-[60] -translate-x-1/2 text-center`}
+        {...anim(text)}
+        dangerouslySetInnerHTML={{ __html: routes[router.route] }}
+      />
+
+      {dimensions.width != null && <SVG {...dimensions} />}
+      {children}
+    </div>
+  );
 }
 
 const SVG = ({ height, width }) => {
-	const initialPath = `
+  const initialPath = `
         M0 300 
         Q${width / 2} 0 ${width} 300
         L${width} ${height + 300}
@@ -76,7 +78,7 @@ const SVG = ({ height, width }) => {
         L0 0
     `;
 
-	const targetPath = `
+  const targetPath = `
         M0 300
         Q${width / 2} 0 ${width} 300
         L${width} ${height}
@@ -84,12 +86,12 @@ const SVG = ({ height, width }) => {
         L0 0
     `;
 
-	return (
-		<motion.svg
-			className="fixed h w-full pointer-events-none
-				 left-0 top-0 z-50"
-			{...anim(translate)}>
-			<motion.path {...anim(curve(initialPath, targetPath))} />
-		</motion.svg>
-	);
+  return (
+    <motion.svg
+      className="fixed h w-full pointer-events-none left-0 top-0 z-50"
+      {...anim(translate)}
+    >
+      <motion.path {...anim(curve(initialPath, targetPath))} />
+    </motion.svg>
+  );
 };

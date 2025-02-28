@@ -4,6 +4,8 @@ import Image from "next/image";
 interface LogoItem {
   imgUrl: string;
   altText: string;
+  heading?: string;
+  description?: string;
 }
 
 interface LogoWallProps {
@@ -25,8 +27,8 @@ const LogoWall: FC<LogoWallProps> = ({
   size = "clamp(6rem, 1rem + 12vmin, 20rem)",
   duration = "30s",
   textColor = "#000000",
-  bgColor = "#ffffff",
-  bgAccentColor = "#ffffff",
+  bgColor = "#f1f1f1",
+  bgAccentColor = "#f1f1f1",
   reverse = false,
 }) => {
   const [isPaused, setIsPaused] = useState(false);
@@ -61,7 +63,6 @@ const LogoWall: FC<LogoWallProps> = ({
     "overflow-hidden",
     "transition-opacity",
     "duration-300",
-    "hover:opacity-100",
     direction === "vertical" ? "w-28 h-28" : "w-40 h-24",
   ]
     .filter(Boolean)
@@ -83,20 +84,27 @@ const LogoWall: FC<LogoWallProps> = ({
     item,
     keyPrefix,
   }: {
-    item: LogoItem;
+    item: LogoItem & { heading?: string; description?: string };
     keyPrefix: string;
   }) => (
-    <div className={imageContainerClass}>
-      <div className="relative w-full h-full p-2">
-        <Image
-          key={keyPrefix}
-          src={item.imgUrl}
-          alt={item.altText}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-contain filter grayscale opacity-60 hover:opacity-100 transition-opacity"
-          priority={false}
-        />
+    <div className="flex flex-col items-center py-16 bg-[#f1f1f1]">
+      <div className={imageContainerClass}>
+        <div className="relative w-full h-full p-2">
+          <Image
+            key={keyPrefix}
+            src={item.imgUrl}
+            alt={item.altText}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-contain opacity-100 transition-opacity"
+            priority={false}
+          />
+        </div>
+      </div>
+      {/* Box for Heading and Description */}
+      <div className="bg-[#f1f1f1] p-4 text-center w-60 font-NeueMontreal">
+        <h3 className="text-black font-bold text-lg whitespace-nowrap overflow-hidden font-NeueMontreal line-clamp-1">{item.heading}</h3>
+        <p className="text-black font-normal mt-5 text-base font-NeueMontreal leading-none mb-5 line-clamp-2">{item.description}</p>
       </div>
     </div>
   );

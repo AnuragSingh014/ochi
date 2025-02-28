@@ -43,32 +43,102 @@ import {
 export const navbarItems = [
   {
     id: 1,
-    // title: "About us",
     title: "Influidity",
     href: "/influidity",
+    description: "Experience seamless digital transformation with our innovative solutions.",
+    features: [
+      "AI-powered automation",
+      "Digital workflow optimization",
+      "Custom software solutions"
+    ],
+    hoverItem: [
+      {
+        "full": "About Our Company",
+        "short": "About Us"
+      },
+      {
+        "full": "Meet Our Founders",
+        "short": "Founders"
+      },
+      {
+        "full": "Our Dedicated Team",
+        "short": "Team"
+      },
+      {
+        "full": "Our Core Values",
+        "short": "Core Value"
+      },
+      {
+        "full": "Our Unique Approach",
+        "short": "Approach"
+      }
+    ]
   },
   {
     id: 3,
-    // title: "Services",
-    title: "Growth Story",
+    title: "GrowthStory",
     href: "/GrowthStory",
+    description: "Accelerate your business growth with data-driven strategies.",
+    features: [
+      "Market analysis",
+      "Growth optimization",
+      "Performance tracking"
+    ],
+    hoverItem: [
+      {
+        "full": "Education Industry Insights",
+        "short": "Education"
+      },
+      {
+        "full": "Healthcare Sector Solutions",
+        "short": "Healthcare"
+      },
+      {
+        "full": "Real Estate Consulting",
+        "short": "Real estate"
+      },
+      {
+        "full": "Hospitality Business Growth",
+        "short": "Hospitality"
+      },
+
+    ]
   },
   {
     id: 2,
-    // title: "Our work",
     title: "Consulting",
     href: "/consulting",
+    description: "Expert guidance to transform your business challenges into opportunities.",
+    features: [
+      "Strategic planning",
+      "Digital transformation",
+      "Business optimization"
+    ],
+    hoverItem: [
+      {
+        "full": "Expert Business Consulting",
+        "short": "Business Consulting"
+      },
+      {
+        "full": "Strategic Marketing Solutions",
+        "short": "Marketing Consulting"
+      },
+      {
+        "full": "HR Advisory Services",
+        "short": "HR Consulting"
+      },
+      {
+        "full": "Virtual CFO Solutions",
+        "short": "Virtual CFO"
+      },
+    ]
   },
   {
     id: 4,
     // title: "Insights",
     title: "Career",
     href: "/career",
-  },
-  {
-    id: 5,
-    title: "Contact us",
-    href: "/contact",
+   
   },
 ];
 
