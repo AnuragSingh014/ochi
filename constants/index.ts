@@ -342,6 +342,7 @@ export const clientsItem = [
   },
 ];
 
+// Cansulting catagoery hover items
 export const projectItem = [
   {
     id: 1,

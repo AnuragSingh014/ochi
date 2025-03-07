@@ -16,6 +16,8 @@ const config: Config = {
         secondry: "#212121",
         marquee: "#00b9bb",
         about: "#71edbc",
+        // Add a new color specifically for hover text
+        hoverText: "#000000", // Replace with your desired hover text color
       },
       keyframes: {
         scrollX: {

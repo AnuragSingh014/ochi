@@ -15,7 +15,7 @@ export default function Projects() {
 						key={item.id}>
 						<div className="flex gap-[10px] items-center pb-[10px]">
 							<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-							<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+							<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry hover:text-hoverText !important">
 								{item.title}
 							</h1>
 						</div>
