@@ -208,141 +208,59 @@ export const footernavbarItems = [
 export const clientsItem = [
   {
     id: 1,
-    website: "Rajesh Kumar Ghosh",
+    website: "Shakti Mishra",
     href: "",
     title: "Services:",
     name: "Review",
     src: client01,
-    review:
-      "Working with Influidity   Solution was a breath of fresh air. They didn’t just create ads—they gave us an emotional connection with our audience.",
+    review: [
+      "45% Top-line growth through digital branding & marketing with 62% higher ROAs",
+      "They contributed to a rise of 45% in our revenue through digital marketing. Not only Digital Marketing, they showed us path to conduct effective offline campaigns also. Influidity showed us how powerful the internet can be, and how data can be utilized to create better offline campaigns."
+    ],
+  
     links: [
       {
         id: 1,
-        title: "Marketing Consulting",
-        href: "/GrowthStory",
+        title: "Sunshine Hospitals",
+        href: "",
       },
     ],
   },
   {
     id: 2,
-    website: "Manoj Kumar Nayak",
+    website: "Astha Ray",
     href: "",
     title: "Services:",
     name: "Review",
     src: client02,
-    review:
-      "The team at Influidity   Solution completely changed our digital presence. Before working with them, we barely had a digital footprint, and now our page is dynamic, engaging and well maintained.",
+    review: [
+      "38%increase in hotel bookings through own website With reduced dependency on regular travel portals.",
+      "Travel portals were taking away 20% of our tariffs, and Mayfair suffered from negative EBITDA owing to huge costs of managing a 5- star hotel chain. Influidity revamped our website, our branding, and helped us tie up with more outstation corporates."
+    ],
     links: [
       {
         id: 1,
-        title: "Business Consulting",
-        href: "/GrowthStory",
-      },
-      {
-        id: 2,
-        title: "Virtual CFO",
-        href: "/GrowthStory",
+        title: "Mayfair Hotels & Resorts",
+        href: "",
       },
     ],
   },
-
   {
     id: 3,
-    website: "Olivia Carter",
-    href: "https://www.workiz.com",
-    title: "Services:",
-    name: "Review",
-    src: client03,
-    review:
-      "Influidity Solution took our brand to the next level. Their creative strategies not only increased our engagement but also strengthened our connection with our audience.",
-    links: [
-      {
-        id: 1,
-        title: "HR Consulting",
-        href: "/GrowthStory",
-      },
-    ],
-  },
-  {
-    id: 4,
-    website: "Mohammed Al Mansoori",
+    website: "Boyanika Team",
     href: "",
     title: "Services:",
     name: "Review",
     src: client04,
-    review:
-      "From strategy to execution, Influidity   Solution delivered beyond expectations. Their expertise in digital marketing helped us reach the right customers at the right time.",
-    links: [
-      {
-        id: 1,
-        title: "Business Consulting",
-        href: "/GrowthStory",
-      },
-      {
-        id: 2,
-        title: "Virtual CFO",
-        href: "/GrowthStory",
-      },
+    review: [
+      "We always knew the beauty of our handlooms, but getting people to see it the way we do was a challenge.",
+      "The new branding changed everything. It gave Boyanika a fresh identity while staying true to our roots. We saw more people walk into our stores, more love for our collections, and a real jump in sales. It wasn’t just about looking good; it was about making an impact. And that’s exactly what happened."
     ],
-  },
-  {
-    id: 5,
-    website: "Rohan Kapoor",
-    href: "",
-    title: "Services:",
-    name: "Review",
-    src: client05,
-    review:
-      "The professionalism and dedication of the Influidity   Solution team are unmatched. They understood our vision and transformed it into compelling content that drives results.",
     links: [
       {
         id: 1,
-        title: "Virtual CFO",
-        href: "/GrowthStory",
-      },
-    ],
-  },
-  {
-    id: 6,
-    website: "Jackson Reed",
-    href: "",
-    title: "Services:",
-    name: "Review",
-    src: client06,
-    review:
-      "Influidity Solution doesn’t just create campaigns—they build brand stories. Thanks to their innovative approach, our online presence has never been stronger.",
-    links: [
-      {
-        id: 1,
-        title: "Marketing Consulting",
-        href: "/GrowthStory",
-      },
-    ],
-  },
-  {
-    id: 7,
-    website: "Abhi Biswas",
-    href: "",
-    title: "Services:",
-    name: "Review",
-    src: client07,
-    review:
-      "Partnering with Influidity   Solution was the best decision for our business. Their tailored strategies and keen insights have led to increased brand awareness and customer engagement.",
-    links: [
-      {
-        id: 1,
-        title: "HR Consulting",
-        href: "/GrowthStory",
-      },
-      {
-        id: 2,
-        title: "Marketing Consulting",
-        href: "/GrowthStory",
-      },
-      {
-        id: 3,
-        title: "Virtual CFO",
-        href: "/GrowthStory",
+        title: "Boyanika Handloom",
+        href: "",
       },
     ],
   },
