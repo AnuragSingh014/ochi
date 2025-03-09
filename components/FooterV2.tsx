@@ -17,6 +17,11 @@ const FooterV2 = () => {
     { href: "/influidity", label: "Influidity" },
     { href: "/consulting", label: "Consulting" },
     { href: "/growthstory", label: "Growth Story" },
+    {
+      href: "https://linktr.ee/AtomicMari", // External URL
+      label: "Portfolio",
+      target: "_blank", // Open in a new tab
+    },
     { href: "/career", label: "Career" },
     { href: "/contact", label: "Contact Us" },
   ];

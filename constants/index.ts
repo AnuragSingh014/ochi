@@ -134,6 +134,12 @@ export const navbarItems = [
     ]
   },
   {
+    id: 3,
+    title: "Portfolio",
+    href: "https://linktr.ee/AtomicMari", // External URL
+    target: "_blank", // Open in a new tab
+  },
+  {
     id: 4,
     // title: "Insights",
     title: "Career",
