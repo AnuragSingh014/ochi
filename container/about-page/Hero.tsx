@@ -47,7 +47,7 @@ export default function Hero() {
       for (let i = 0; i < textLines.length; i++) {
         await controls[i].start((index) => ({
           opacity: 1,
-          transition: { delay: index * 0.02, duration: 0.1 },
+          transition: { delay: index * 0.002, duration: 0.1 },
         }));
       }
     };
@@ -61,8 +61,8 @@ export default function Hero() {
         <div className="w-full flex flex-col">
           <div className="w-full margin padding-x">
             <div>
-              <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-                WE ARE <br />
+              <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase pt-12 pb-12">
+              We are Influidity Soluation <br />
                 <div className="flex items-center gap-[5px]">
                   <motion.span
                     initial={{ width: 0 }}
@@ -75,7 +75,7 @@ export default function Hero() {
                   >
                   </motion.span>
                   <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-                    Influidity Soluations
+                    
                   </h1>
                 </div>
               </h1>

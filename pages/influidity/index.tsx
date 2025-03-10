@@ -25,7 +25,6 @@ export default function About() {
 				<Heroabout />
 				<Principles />
 				<Aboutabout />
-				{/* <Team /> */}
 				<Process />
 				<Partners />
 				<Insights />
