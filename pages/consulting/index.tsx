@@ -7,6 +7,7 @@ import {
 	Publication,
 } from "@/container";
 import dynamic from "next/dynamic";
+import ReadyConsulting from "@/components/ReadyConsulting";
 
 function Presentation() {
 	useEffect(() => {
@@ -19,8 +20,9 @@ function Presentation() {
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heropresentation />
+				<Publication/>
 				<Projectspresentation />
-				<Ready />
+				<ReadyConsulting />
 			</Curve>
 		</>
 	);

@@ -5,8 +5,9 @@ export default function Hero() {
 	const controls = useAnimation();
 	const [bgColor, setBgColor] = useState("#FF5733");
 	const [textColor, setTextColor] = useState("#FFFFFF");
+	const [text, setText] = useState("Consulting");
 
-	// Define color options
+	// Define color and text options
 	const colors = [
 		{ bg: "#083400", text: "#87ea5c" },
 		{ bg: "#370305", text: "#ffd5f0" },
@@ -14,47 +15,57 @@ export default function Hero() {
 		{ bg: "#3b3418", text: "#ffea4b" },
 	];
 
-	let colorIndex = 0;
+	const texts = [
+		"Consulting",
+		"Strategy",
+		"Design",
+		"Development",
+		"Innovation",
+	];
 
-	// Function to change colors
-	const changeColors = () => {
+	let colorIndex = 0;
+	let textIndex = 0;
+
+	// Function to change colors and text
+	const changeColorsAndText = () => {
 		colorIndex = (colorIndex + 1) % colors.length;
+		textIndex = (textIndex + 1) % texts.length;
 		setBgColor(colors[colorIndex].bg);
 		setTextColor(colors[colorIndex].text);
+		setText(texts[textIndex]);
 	};
 
 	// Start animation loop
 	useEffect(() => {
 		const startAnimation = async () => {
 			while (true) {
-				// Change colors at the start of each loop
-				changeColors();
+				changeColorsAndText();
 
 				// Move text to the end position and fade in
 				await controls.start({
-					x: -200, // Start from the left
-					opacity: 0, // Start with 0 opacity (invisible)
+					x: -200,
+					opacity: 0,
 					transition: {
-						duration: 0, // Instant transition to the start position
+						duration: 0,
 					},
 				});
 
 				// Animate text to the right and fade in
 				await controls.start({
-					x: 100, // Move to the right
-					opacity: 1, // Fade in to full opacity
+					x: 100,
+					opacity: 1,
 					transition: {
-						duration: 1, // Duration of the movement and fade
+						duration: 1,
 						ease: "easeInOut",
 					},
 				});
 
 				// Reset text position and fade out
 				await controls.start({
-					x: -200, // Reset to the start position
-					opacity: 0, // Fade out to 0 opacity
+					x: -200,
+					opacity: 0,
 					transition: {
-						duration: 1, // Duration of the fade out
+						duration: 1,
 						ease: "easeInOut",
 					},
 				});
@@ -67,17 +78,17 @@ export default function Hero() {
 	return (
 		<section
 			className="w-full h-screen flex justify-center items-center sticky top-0"
-			style={{ backgroundColor: bgColor }} // Dynamic background
+			style={{ backgroundColor: bgColor }}
 		>
 			<motion.h1
 				className="heading tracking-[-1.3px] font-semibold font-FoundersGrotesk uppercase text-center"
 				style={{
 					fontSize: "16rem",
-					color: textColor, // Dynamic text color
+					color: textColor,
 				}}
 				animate={controls}
 			>
-				Consulting
+				{text}
 			</motion.h1>
 		</section>
 	);
