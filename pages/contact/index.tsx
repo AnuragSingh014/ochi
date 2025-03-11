@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import { Curve } from "@/components";
-import { Herocontact, Form, FAQ, Socials } from "@/container";
+import { Curve, Ready } from "@/components";
+import { Herocontact, Form, FAQ, Socials, Heropresentation, Publication } from "@/container";
 
 export default function Contact() {
 	useEffect(() => {
@@ -13,10 +13,11 @@ export default function Contact() {
 	return (
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
-				<Herocontact />
+				<Heropresentation />
+				<Publication/>
 				<Form />
-				<Socials />
 				<FAQ />
+				<Ready />
 			</Curve>
 		</>
 	);

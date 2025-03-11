@@ -74,7 +74,7 @@ export default function Process() {
 	};
 
 	return (
-		<section className="w-full padding-y">
+		<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
 			<div className="w-full padding-x mb-[40px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					At Influidity, we believe true growth is about leaving room for targets and keeping the things that matter. Our foundation is based on values that define every decision, partnership, and milestone made. ​

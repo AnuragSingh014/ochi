@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { latestItemss } from "@/constants";
@@ -45,45 +45,21 @@ const Hero: React.FC = () => {
       });
   }, []);
 
+  const container = useRef(null);
 
 
   return (
-    <section className="w-full min-h-screen">
+    <div className="w-full" ref={container}>
+      <div className="w-full flex flex-col items-center justify-center bg-about">
+        <div
+          className="bg-[#f1f1f1] relative z-20 w-[90%] py-[20px] rounded-t-[10px]"
+          data-scroll
+          data-scroll-speed="-.1"
+        />
+      </div>
+    <section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
       <div className="w-full flex flex-col justify-between">
         <div className="w-full flex flex-col">
-          <div className="w-full margin padding-x">
-            <section className="w-full padding-x">
-              <div className="w-full flex flex-col">
-                <div className="w-full margin">
-                  <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-                    <div className="flex items-center gap-[5px]">
-                      <motion.span
-                        initial={{ width: 0 }}
-                        animate={{ width: "auto" }}
-                        transition={{
-                          ease: [0.86, 0, 0.07, 0.995],
-                          duration: 1,
-                          delay: 1.5,
-                        }}
-                      >
-                        <Image
-                          width={120}
-                          height={50}
-                          src={contactHero}
-                          alt="img"
-                          className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
-                        />
-                      </motion.span>
-                      <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-                        START YOUR <br />
-                      </h1>
-                    </div>
-                    CAREER WITH US
-                  </h1>
-                </div>
-              </div>
-            </section>
-          </div>
           <div className="w-full border-t border-[#21212155]">
             <p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
               We create&nbsp;
@@ -141,6 +117,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

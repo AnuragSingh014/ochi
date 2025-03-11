@@ -3,7 +3,7 @@ import { BackgroundImg } from "@/components";
 
 export default function About() {
 	return (
-		<section className="w-full padding-y">
+		<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
 
 			<div className="w-full flex flex-col bg-background">
 				<div className="w-full border-t border-[#21212155] pt-[20px]">

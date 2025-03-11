@@ -105,7 +105,7 @@ export default function Form() {
   const textClasses = "text-5xl  font-bold text-[#333]";
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-5xl mx-auto text-2xl">
+    <form onSubmit={handleSubmit} className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
       <div className="p-8">
         <h2 className="text-lg text-gray-600 mb-6">Fill the form below:</h2>
         

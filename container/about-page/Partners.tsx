@@ -40,7 +40,7 @@ const aboutPartberItems2 = [
 
 export default function Principles() {
   return (
-    <section className="w-full bg-background">
+    <section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
       <div>
         <h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry">
           At Influidity, we believe that how we achieve success is as important as achieving it. As an expanding organization, we are committed to holding a strong ethical compass. Our core values aren't just words; they're the principles that guide every decision, every interaction, and every result.

@@ -6,6 +6,8 @@ import {
 	Process,
 	Archive,
 	Heroservices,
+	Heropresentation,
+	Publication,
 } from "@/container";
 import { useEffect } from "react";
 import { Curve, Ready } from "@/components";
@@ -20,7 +22,8 @@ export default function Services() {
 	return (
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
-				<Heroservices />
+				<Heropresentation />
+				<Publication/>
 				<Process />
 				<Archive />
 				<Ready />

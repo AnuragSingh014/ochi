@@ -4,7 +4,7 @@ import { latestItemss } from "@/constants";
 
 export default function Insights() {
 	return (
-		<section className="w-full pb-[100px] lg:pb-[80px] md:pb-[60px] sm:pb-[40px] xm:pb-[40px] bg-background">
+		<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
 			<div className="w-full flex flex-col justify-between">
 				<div className="w-full flex flex-col">
 					<div className="padding-x pb-[30px]">
