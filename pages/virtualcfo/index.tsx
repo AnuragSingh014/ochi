@@ -25,9 +25,6 @@ function Work() {
 				<Heroworkiz4 />
 				<Aboutworkiz4 />
 				<Chelenge4 />
-				{/* <VideoWorkiz4 />
-				<Result4 />
-				<Credit4 /> */}
 				<Works4 />
 				<Ready />
 			</Curve>

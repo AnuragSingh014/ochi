@@ -27,8 +27,6 @@ export default function Home() {
 					/>
 				</div>
 				<About />
-				{/* <WhatDefinesUs /> */}
-				{/* <RotatingArrow /> */}
 				<VideoHome />
 				<Projects />
 				<Clients />

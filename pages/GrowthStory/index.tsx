@@ -22,10 +22,7 @@ export default function Services() {
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heroservices />
 				<Process />
-				{/* <Capibilyties /> */}
-				{/* <Clientsservices /> */}
 				<Archive />
-				{/* <Expectations /> */}
 				<Ready />
 			</Curve>
 		</>

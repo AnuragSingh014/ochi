@@ -11,13 +11,6 @@ const stars = [
   { top: 0, right: 0, delay: 0, duration: 8 },
   { top: 0, right: 80, delay: 0.2, duration: 6 },
   { top: 80, right: 0, delay: 0.4, duration: 4 },
-//   { top: 0, right: 180, delay: 0.6, duration: 1.5 },
-//   { top: 0, right: 400, delay: 0.8, duration: 2.5 },
-//   { top: 0, right: 600, delay: 1, duration: 3 },
-//   { top: 300, right: 0, delay: 1, duration: 1.75 },
-//   { top: 0, right: 700, delay: 1.4, duration: 1.25 },
-//   { top: 0, right: 1000, delay: 0.75, duration: 2.25 },
-//   { top: 0, right: 1000, delay: 2.75, duration: 2.25 },
 ];
 
 export default function Hero() {
@@ -59,13 +52,6 @@ export default function Hero() {
 											delay: 1.5,
 										}}
 										className="leading-[130px]">
-										{/* <Image
-											width={120}
-											height={50}
-											src="/influidity.png"
-											alt="img"
-											className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
-										/> */}
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
 									we solve problems
@@ -75,13 +61,6 @@ export default function Hero() {
 							</h1>
 						</div>
 						<div>
-							{/* <Image
-								src={awwwards}
-								alt="awwwards"
-								width={60}
-								height={60}
-								className="xm:hidden sm:hidden"
-							/> */}
 						</div>
 					</div>
 					<div className="w-full flex flex-col h-[22vh] border-t border-[#21212155] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">

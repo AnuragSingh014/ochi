@@ -25,9 +25,6 @@ import dynamic from "next/dynamic";
 				<Heroworkiz3 />
 				<Aboutworkiz3 />
 				<Chelenge3 />
-				{/* <VideoWorkiz3 />
-				<Result3 />
-				<Credit3 /> */}
 				<Works3/>
 				<Ready />
 			</Curve>

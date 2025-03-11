@@ -33,7 +33,6 @@ export default function App({
         <div className="fixed h-[700px] w-full bottom-0">
           <div>
             <FooterV2 />
-            {/* <Footer /> */}
           </div>
         </div>
       </div>
