@@ -25,6 +25,7 @@ export default function About() {
 			<Curve backgroundColor={"#f1f1f1"}>
 				<Heropresentation />
 				<Publication/>
+				<Heroabout />
 				<Principles />
 				<Aboutabout />
 				<Process />

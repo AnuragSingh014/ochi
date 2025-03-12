@@ -56,7 +56,7 @@ export default function Hero() {
   }, [controls, textLines]);
 
   return (
-    <section className="w-full min-h-screen">
+    <section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
       <div className="w-full flex flex-col justify-between">
         <div className="w-full flex flex-col">
           <div className="w-full margin padding-x">

@@ -62,7 +62,7 @@ export default function Hero() {
 
 				// Reset text position and fade out
 				await controls.start({
-					x: -200,
+					x: 50,
 					opacity: 0,
 					transition: {
 						duration: 1,
