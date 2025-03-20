@@ -160,8 +160,9 @@ export default function TrustedPartners() {
           className="padding-x padding-y pb-[10px] border-b border-[#21212155]"/>
 
         <h1 className=" text-2xl font-normal padding-x font-NeueMontreal text-secondry m-8">
-          Our clients are making moves. Are you? Don&apos;t get left behind—Join
-          the brands leading the way with us.
+        Our clients are making moves. Are you?
+          <br />
+          Don&apos;t get left behind, join the brands leading the way with us.
         </h1>
 
         <motion.div

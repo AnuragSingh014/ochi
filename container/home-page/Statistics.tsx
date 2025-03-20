@@ -9,22 +9,22 @@ const Statistics: React.FC = () => {
     {
       title: "Ideas Delivered",
       value: 500,
-      description: "Innovative solutions crafted to drive success.",
+      description: "That didn't just stay on paper, they made an impact.",
     },
     {
       title: "Campaigns Launched",
       value: 1000,
-      description: "High-impact campaigns executed with precision.",
+      description: "That reached the right people, at the right time, with the right message.",
     },
     {
       title: "Engagement Hours",
       value: 20000,
-      description: "Meaningful interactions fostering strong connections.",
+      description: "Spent understanding what clicks, what sticks, and what truly connects.",
     },
     {
       title: "Client Satisfaction",
       value: 98,
-      description: "Trusted by clients with an exceptional approval rate.",
+      description: "Because good work isn't just delivered, it's remembered.",
     },
   ];
 
@@ -81,7 +81,7 @@ const Statistics: React.FC = () => {
     <div className="bg-white py-16 px-6">
       <motion.div
         ref={ref}
-        className="max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-4 gap-20 text-black"
+        className="max-w-7xl mx-auto grid grid-cols-4 md:grid-cols-4 gap-10 text-black"
         variants={containerVariants}
         initial="hidden"
         animate={controls}
@@ -89,18 +89,20 @@ const Statistics: React.FC = () => {
         {stats.map((stat, index) => (
           <motion.div
             key={index}
-            className="text-center"
+            className="text-center w-full" // Ensure consistent width
             variants={itemVariants}
           >
             <h3 className="text-2xl mb-5 font-medium text-start">{stat.title}</h3>
             <hr />
             <motion.p
-              className="text-8xl my-3 font-semibold ml-2 mt-3 text-start mb-4"
+              className="text-8xl my-3 font-semibold ml-2 mt-3 text-start mb-4 overflow-hidden truncate" // Prevent overflow
               variants={valueVariants}
             >
               {animatedValues[index]}+
             </motion.p>
-            <p className="text-gray-600 text-lg tracking-tight text-start">{stat.description}</p>
+            <p className="text-gray-600 text-lg tracking-tight text-start line-clamp-2">
+              {stat.description}
+            </p>
           </motion.div>
         ))}
       </motion.div>

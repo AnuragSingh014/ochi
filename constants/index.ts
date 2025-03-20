@@ -53,23 +53,23 @@ export const navbarItems = [
     ],
     hoverItem: [
       {
-        "full": "About Our Company",
+        "full": "Know about our little company",
         "short": "About Us"
       },
       {
-        "full": "Meet Our Founders",
+        "full": "Meet the horses",
         "short": "Founders"
       },
       {
-        "full": "Our Dedicated Team",
+        "full": "The People Making It Happen",
         "short": "Team"
       },
       {
-        "full": "Our Core Values",
+        "full": "What We Stand For",
         "short": "Core Value"
       },
       {
-        "full": "Our Unique Approach",
+        "full": "Our Playbook ",
         "short": "Approach"
       }
     ]
